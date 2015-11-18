@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="SPT-FE:war">
+    <output-path>$PROJECT_DIR$/../../Temp/Spotitube-Frontend/target</output-path>
+    <root id="archive" name="servlet3-1.0-SNAPSHOT.war">
+      <element id="artifact" artifact-name="SPT-FE:war exploded" />
+    </root>
+  </artifact>
+</component>

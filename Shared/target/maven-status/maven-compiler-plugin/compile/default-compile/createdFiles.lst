@@ -1,0 +1,9 @@
+Domain/Service/TrackService.class
+Domain/DomainObjects/Playlist.class
+Domain/DomainObjects/Video.class
+Domain/Service/RemotePlayListService.class
+Domain/Service/PlaylistService.class
+Domain/DomainObjects/Availability.class
+Domain/DomainObjects/Track.class
+Domain/DomainObjects/Song.class
+Domain/DomainObjects/Entity.class
