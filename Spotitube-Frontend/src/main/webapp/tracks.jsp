@@ -20,6 +20,7 @@
 
 <%@include file="nav.html"%>
 <div id="wrapper">
+<h1>Playlist: ${playlistName}</h1>
 <table border="1">
   <tr>
     <th> Performer</th>

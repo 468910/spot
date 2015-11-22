@@ -14,9 +14,7 @@ import java.util.ArrayList;
 @Singleton
 public class AddTrackPageController extends HttpServlet {
 
-
     private final TrackModel trackModel;
-
 
     @Inject
     public AddTrackPageController(TrackModel trackModel){
@@ -29,9 +27,38 @@ public class AddTrackPageController extends HttpServlet {
         ArrayList<Track> tracks = new ArrayList<>();
 
         tracks.add(new Track());
+        tracks.get(0).setTitle("track0");
+        tracks.get(0).setPerformer("zanger0");
+        tracks.get(0).setId(0);
+        tracks.get(0).setUrl("url0");
+        tracks.get(0).setDuration(20);
+        tracks.add(new Track());
+        tracks.get(1).setTitle("track1");
+        tracks.get(1).setPerformer("zanger1");
+        tracks.get(1).setId(1);
+        tracks.get(1).setUrl("url1");
+        tracks.get(1).setDuration(20);
+        tracks.add(new Track());
+        tracks.get(2).setTitle("track2");
+        tracks.get(2).setPerformer("zanger2");
+        tracks.get(2).setId(2);
+        tracks.get(2).setUrl("url2");
+        tracks.get(2).setDuration(20);
 
+        //set playlistname in h1 element
+        if(req.getParameter("searchTrack") != null){
+            req.setAttribute("playlistName", req.getParameter("searchTrack"));
+        }
+
+        //go through all tracks
+        for(int i = 0; i < tracks.size(); i++){
+            System.out.println(tracks.get(i).getTitle());
+        }
+
+        //set tracks to list
         req.setAttribute("list", tracks);
 
+        //use this view in /addtrack
         req.getRequestDispatcher("tracks.jsp").forward(req, resp);
     }
 
@@ -40,6 +67,4 @@ public class AddTrackPageController extends HttpServlet {
 
         //req.getRequestDispatcher("tracks.jsp").forward(req, resp);
     }
-
-
 }

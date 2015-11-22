@@ -20,6 +20,7 @@ public class PlaylistViewPageController extends HttpServlet {
     private final PlaylistModel playlistModel;
 
     public String prap = "";
+    public int radId;
     @Inject
     public PlaylistViewPageController(PlaylistModel playlistModel){
         this.playlistModel = playlistModel;
@@ -31,41 +32,49 @@ public class PlaylistViewPageController extends HttpServlet {
 
     @Override
     protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
-
-      // playlistModel.getAllPlaylists(abonnee);
         req.setAttribute("list", playlists);
 
-
-        //TODO: Apparently i can only set values in the jsp file throug the doGet... :'( Im gonna sleep now.
+        //To set the playlistname which will be eddited later.
         req.setAttribute("myBean", prap);
 
+        //User this view on /playlist
         req.getRequestDispatcher("playlist.jsp").forward(req, resp);
-        System.out.println(playlistModel.playlists.isEmpty());
-        System.out.println(playlistModel.playlists.size());
-        //System.out.println(getServletContext().getRealPath("/"));
     }
 
     @Override
     protected void doPost(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
+        //To add a new playlist
         if(req.getParameter("submitTrack") != null){
             playlists.add(new Playlist(2, abonnee, req.getParameter("newPlaylistName")));
             resp.sendRedirect("playlist");
         }
 
+        //Set prap to current name to be used in next ifstatement
         if(req.getParameter("editThisList") != null){
-            System.out.println("yoyo: " + req.getParameter("radioButton"));
             resp.sendRedirect("playlist");
-            req.setAttribute("myBean", req.getParameter("radioButton"));
 
             prap = req.getParameter("radioButton");
-
+            req.setAttribute("myBean", prap);
         }
 
-        //i stranded here. How do i send value's to the jsp file?
-        if(req.getParameter("choosePlaylistButton") != null){
+        //Changing the chosen playlistname
+        if (req.getParameter("changeListName") != null) {
+            for(int i = 0; i < playlists.size(); i++){
+                if(playlists.get(i).getName().equals(prap)){
+                    playlists.get(i).setName(req.getParameter("newTrackName"));
+                    resp.sendRedirect("playlist");
+                }
+            }
+        }
 
+        //Go to /addtrack
+        if(req.getParameter("searchTrack") != null){
+            resp.sendRedirect("addtrack");
+        }
+
+        //go to /playlist
+        if(req.getParameter("choosePlaylistButton") != null){
             resp.sendRedirect("playlist");
-            
         }
     }
 }
