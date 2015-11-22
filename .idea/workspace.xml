@@ -2,43 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="228bdb06-e406-428b-83fc-df9ec247a4d3" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Spotitube-Frontend/src/main/java/han/ica/PageControllers/MyBean.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Spotitube-Frontend/src/main/webapp/nav.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Spotitube-Frontend/src/main/webapp/style.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Shared/target/shared-1.0-SNAPSHOT.jar" afterPath="$PROJECT_DIR$/Shared/target/shared-1.0-SNAPSHOT.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Spotitube-Frontend/target/classes/han/ica/PageControllers/AddTrackPageController.class" afterPath="$PROJECT_DIR$/Spotitube-Frontend/target/classes/han/ica/PageControllers/AddTrackPageController.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Spotitube-Frontend/target/classes/han/ica/PageControllers/PlaylistViewPageController.class" afterPath="$PROJECT_DIR$/Spotitube-Frontend/target/classes/han/ica/PageControllers/PlaylistViewPageController.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Spotitube-Frontend/target/servlet3-1.0-SNAPSHOT.war" afterPath="$PROJECT_DIR$/Spotitube-Frontend/target/servlet3-1.0-SNAPSHOT.war" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Spotitube-Frontend/target/servlet3-1.0-SNAPSHOT/WEB-INF/classes/han/ica/PageControllers/AddTrackPageController.class" afterPath="$PROJECT_DIR$/Spotitube-Frontend/target/servlet3-1.0-SNAPSHOT/WEB-INF/classes/han/ica/PageControllers/AddTrackPageController.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Spotitube-Frontend/target/servlet3-1.0-SNAPSHOT/WEB-INF/classes/han/ica/PageControllers/PlaylistViewPageController.class" afterPath="$PROJECT_DIR$/Spotitube-Frontend/target/servlet3-1.0-SNAPSHOT/WEB-INF/classes/han/ica/PageControllers/PlaylistViewPageController.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Spotitube-Frontend/target/servlet3-1.0-SNAPSHOT/WEB-INF/lib/shared-1.0-SNAPSHOT.jar" afterPath="$PROJECT_DIR$/Spotitube-Frontend/target/servlet3-1.0-SNAPSHOT/WEB-INF/lib/shared-1.0-SNAPSHOT.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/han/target/classes/ica/han/DataSource/Helpers/SQLTableStatements.class" afterPath="$PROJECT_DIR$/han/target/classes/ica/han/DataSource/Helpers/SQLTableStatements.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/han/target/han-1.0-SNAPSHOT.war" afterPath="$PROJECT_DIR$/han/target/han-1.0-SNAPSHOT.war" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/han/target/han-1.0-SNAPSHOT/WEB-INF/classes/ica/han/DataSource/Helpers/SQLTableStatements.class" afterPath="$PROJECT_DIR$/han/target/han-1.0-SNAPSHOT/WEB-INF/classes/ica/han/DataSource/Helpers/SQLTableStatements.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/han/target/han-1.0-SNAPSHOT/WEB-INF/lib/shared-1.0-SNAPSHOT.jar" afterPath="$PROJECT_DIR$/han/target/han-1.0-SNAPSHOT/WEB-INF/lib/shared-1.0-SNAPSHOT.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/encodings.xml" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Spotitube-Frontend/servlet3.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Shared/Shared.iml" afterPath="$PROJECT_DIR$/Shared/Shared.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Shared/src/main/java/Domain/Service/PlaylistService.java" afterPath="$PROJECT_DIR$/Shared/src/main/java/Domain/Service/PlaylistService.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Shared/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterPath="$PROJECT_DIR$/Shared/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Shared/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterPath="$PROJECT_DIR$/Shared/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Spotitube-Frontend/pom.xml" afterPath="$PROJECT_DIR$/Spotitube-Frontend/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Spotitube-Frontend/src/main/java/han/ica/PageControllers/AddTrackPageController.java" afterPath="$PROJECT_DIR$/Spotitube-Frontend/src/main/java/han/ica/PageControllers/AddTrackPageController.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Spotitube-Frontend/src/main/java/han/ica/PageControllers/PlaylistViewPageController.java" afterPath="$PROJECT_DIR$/Spotitube-Frontend/src/main/java/han/ica/PageControllers/PlaylistViewPageController.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Spotitube-Frontend/src/main/webapp/playlist.jsp" afterPath="$PROJECT_DIR$/Spotitube-Frontend/src/main/webapp/playlist.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Spotitube-Frontend/src/main/webapp/tracks.jsp" afterPath="$PROJECT_DIR$/Spotitube-Frontend/src/main/webapp/tracks.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Spotitube-Frontend/target/maven-archiver/pom.properties" afterPath="$PROJECT_DIR$/Spotitube-Frontend/target/maven-archiver/pom.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Spotitube-Frontend/target/servlet3-1.0-SNAPSHOT/playlist.jsp" afterPath="$PROJECT_DIR$/Spotitube-Frontend/target/servlet3-1.0-SNAPSHOT/playlist.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Spotitube-Frontend/target/servlet3-1.0-SNAPSHOT/tracks.jsp" afterPath="$PROJECT_DIR$/Spotitube-Frontend/target/servlet3-1.0-SNAPSHOT/tracks.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/han/target/maven-archiver/pom.properties" afterPath="$PROJECT_DIR$/han/target/maven-archiver/pom.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/han/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterPath="$PROJECT_DIR$/han/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/han/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterPath="$PROJECT_DIR$/han/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/han/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterPath="$PROJECT_DIR$/han/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/han/target/surefire-reports/TEST-ica.han.AppTest.xml" afterPath="$PROJECT_DIR$/han/target/surefire-reports/TEST-ica.han.AppTest.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/han/target/surefire-reports/ica.han.AppTest.txt" afterPath="$PROJECT_DIR$/han/target/surefire-reports/ica.han.AppTest.txt" />
     </list>
     <ignored path="spot.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -110,8 +75,8 @@
       <file leaf-file-name="PlaylistViewPageController.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Spotitube-Frontend/src/main/java/han/ica/PageControllers/PlaylistViewPageController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.93679094">
-              <caret line="49" column="35" selection-start-line="49" selection-start-column="35" selection-end-line="49" selection-end-column="35" />
+            <state vertical-scroll-proportion="0.79902756">
+              <caret line="44" column="14" selection-start-line="44" selection-start-column="14" selection-end-line="44" selection-end-column="14" />
               <folding />
             </state>
           </provider>
@@ -690,6 +655,13 @@
       <option name="number" value="Default" />
       <updated>1447846894500</updated>
     </task>
+    <task id="LOCAL-00001" summary="front commit all">
+      <created>1448197903037</created>
+      <option name="number" value="00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1448197903038</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -698,6 +670,7 @@
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32921347" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.30844155" sideWeight="0.50437635" order="10" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -710,7 +683,6 @@
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.23851204" sideWeight="0.5054773" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32921347" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -730,6 +702,10 @@
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="front commit all" />
+    <option name="LAST_COMMIT_MESSAGE" value="front commit all" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -822,6 +798,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="20" column="28" selection-start-line="20" selection-start-column="28" selection-end-line="20" selection-end-column="28" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -875,6 +852,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="20" column="28" selection-start-line="20" selection-start-column="28" selection-end-line="20" selection-end-column="28" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1083,6 +1061,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.2487725">
           <caret line="20" column="28" selection-start-line="20" selection-start-column="28" selection-end-line="20" selection-end-column="28" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1136,8 +1115,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Spotitube-Frontend/src/main/java/han/ica/PageControllers/PlaylistViewPageController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.93679094">
-          <caret line="49" column="35" selection-start-line="49" selection-start-column="35" selection-end-line="49" selection-end-column="35" />
+        <state vertical-scroll-proportion="0.79902756">
+          <caret line="44" column="14" selection-start-line="44" selection-start-column="14" selection-end-line="44" selection-end-column="14" />
           <folding />
         </state>
       </provider>
