@@ -6,9 +6,6 @@ import Domain.DomainObjects.Track;
 
 import java.util.List;
 
-/**
- * Created by apple on 05/10/15.
- */
 public interface PlaylistService {
 
     void updatePlayList(Playlist playlist);

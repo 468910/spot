@@ -11,10 +11,6 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
 import java.util.ArrayList;
-
-/**
- * Created by apple on 16/10/15.
- */
 @Singleton
 public class AddTrackPageController extends HttpServlet {
 
@@ -30,8 +26,9 @@ public class AddTrackPageController extends HttpServlet {
     @Override
     protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
 
+        ArrayList<Track> tracks = new ArrayList<>();
 
-        ArrayList<Track> tracks = (ArrayList)trackModel.getTracks("placeholder");
+        tracks.add(new Track());
 
         req.setAttribute("list", tracks);
 

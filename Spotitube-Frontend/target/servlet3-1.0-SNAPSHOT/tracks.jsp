@@ -10,10 +10,16 @@
 <html>
 <head>
     <title></title>
+    <link type="text/css" rel="stylesheet" href="<c:url value="/style.css" />" />
 </head>
 <body>
 
-<p> Tracks </p>
+<div id="header">
+    <h1> Tracks </h1>
+</div>
+
+<%@include file="nav.html"%>
+<div id="wrapper">
 <table border="1">
   <tr>
     <th> Performer</th>
@@ -30,6 +36,6 @@
     </tr>
   </c:forEach>
 </table>
-
+</div>
 </body>
 </html>
