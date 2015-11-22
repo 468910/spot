@@ -51,8 +51,8 @@ public class AddTrackPageController extends HttpServlet {
         }
 
         //go through all tracks
-        for(int i = 0; i < tracks.size(); i++){
-            System.out.println(tracks.get(i).getTitle());
+        for (Track track : tracks) {
+            System.out.println(track.getTitle());
         }
 
         //set tracks to list

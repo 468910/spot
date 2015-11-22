@@ -59,9 +59,9 @@ public class PlaylistViewPageController extends HttpServlet {
 
         //Changing the chosen playlistname
         if (req.getParameter("changeListName") != null) {
-            for(int i = 0; i < playlists.size(); i++){
-                if(playlists.get(i).getName().equals(prap)){
-                    playlists.get(i).setName(req.getParameter("newTrackName"));
+            for (Playlist playlist : playlists) {
+                if (playlist.getName().equals(prap)) {
+                    playlist.setName(req.getParameter("newTrackName"));
                     resp.sendRedirect("playlist");
                 }
             }
