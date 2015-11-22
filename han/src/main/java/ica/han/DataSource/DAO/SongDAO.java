@@ -1,9 +1,7 @@
 package ica.han.DataSource.DAO;
 
 import Domain.DomainObjects.Entity;
-import Domain.DomainObjects.Playlist;
 import Domain.DomainObjects.Song;
-import com.google.inject.Inject;
 import ica.han.DataSource.IRelationalDataSource;
 
 import java.sql.ResultSet;
@@ -17,7 +15,7 @@ import java.util.List;
 public class SongDAO extends DAO {
 
     public List GetList() {
-        ResultSet rs = dataSource.getResultSet();
+        ResultSet rs = dataSource.getList();
         List list = new ArrayList();
         try {
             while (rs.next()) {

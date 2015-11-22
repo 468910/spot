@@ -9,7 +9,7 @@ import java.sql.ResultSet;
  */
 public interface IRelationalDataSource {
 
-    ResultSet getResultSet();
+    ResultSet getList();
 
     ResultSet find(String pattern);
 

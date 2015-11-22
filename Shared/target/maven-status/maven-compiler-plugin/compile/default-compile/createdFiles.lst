@@ -1,9 +1,0 @@
-Domain\DomainObjects\Video.class
-Domain\Service\PlaylistService.class
-Domain\DomainObjects\Entity.class
-Domain\DomainObjects\Track.class
-Domain\DomainObjects\Availability.class
-Domain\DomainObjects\Song.class
-Domain\Service\RemotePlayListService.class
-Domain\DomainObjects\Playlist.class
-Domain\Service\TrackService.class

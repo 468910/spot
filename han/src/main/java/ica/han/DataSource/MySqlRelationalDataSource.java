@@ -58,7 +58,7 @@ public class MySqlRelationalDataSource<T> implements IRelationalDataSource {
         return null;
     }
 
-    public ResultSet getResultSet() {
+    public ResultSet getList() {
         ResultSet resultSet;
        try{
            Statement statement = connection.createStatement();

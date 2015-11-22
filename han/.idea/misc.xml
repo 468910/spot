@@ -5,6 +5,7 @@
   </component>
   <component name="FrameworkDetectionExcludesConfiguration">
     <file type="web" url="file://$PROJECT_DIR$" />
+    <file type="web" url="file://$PROJECT_DIR$/../Spotitube-Frontend" />
     <file type="web" url="file://$PROJECT_DIR$/../../Temp/Spotitube-Frontend" />
   </component>
   <component name="MavenProjectsManager">
@@ -13,6 +14,7 @@
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/../../Temp/servlet3/pom.xml" />
         <option value="$PROJECT_DIR$/../Shared/pom.xml" />
+        <option value="$PROJECT_DIR$/../Spotitube-Frontend/pom.xml" />
       </list>
     </option>
   </component>

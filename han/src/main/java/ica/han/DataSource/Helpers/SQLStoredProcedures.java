@@ -7,7 +7,7 @@ public class SQLStoredProcedures {
 
     public static String INSERT_PLAYLIST = "INSERT INTO Playlist(owner, name) VALUES(?, ?)";
 
-    public static String INSERT_TRACK = "INSERT INTO TRACK(performer, title, url) VALUES(?, ?, '?')";
+    public static String INSERT_TRACK = "INSERT INTO TRACK(performer, title, url, duration) VALUES(?, ?, '?', '?')";
 
     public static String INSERT_SONG = "INSERT INTO Song(SongPOID, FK_TrackPOID, album) VALUES(?,?)";
 

@@ -21,7 +21,7 @@ public class SQLTableStatements {
 
 
     public static String CREATE_TABLE_VIDEO = "CREATE TABLE Video " +
-                                              " (VideoPOID INTEGER not NULL AUTO_INCREMENT PRIMARY KEY" +
+                                              " (VideoPOID INTEGER not NULL AUTO_INCREMENT PRIMARY KEY," +
                                               " FK_TrackPOID INTEGER not NULL, " +
                                               " playcount INTEGER not NULL, " +
                                               " publicationdate TIMESTAMP not NULL, " +
@@ -30,7 +30,7 @@ public class SQLTableStatements {
 
     public static String CREATE_TABLE_SONG = "CREATE TABLE Song " +
                                              " (SongPOID INTEGER not NULL AUTO_INCREMENT PRIMARY KEY, " +
-                                             " FK_TrackPOID INTEGER not NULL" +
+                                             " FK_TrackPOID INTEGER not NULL," +
                                              " album VARCHAR(255), " +
                                              " FOREIGN KEY (FK_TrackPOID) REFERENCES Track(TrackPOID))";
 

@@ -20,8 +20,7 @@ public class App {
         dao.insert(new Playlist(1, "test", "test"));
         dao.insert(new Playlist(2, "yay", "yay"));
 
-        Server server = new Server();
-        server.initService();
+
 
 
     }

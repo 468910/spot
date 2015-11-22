@@ -2,12 +2,10 @@ package ica.han.DataSource.DAO;
 
 import Domain.DomainObjects.Entity;
 import Domain.DomainObjects.Playlist;
-import com.google.inject.Inject;
+import Domain.DomainObjects.Track;
 import ica.han.DataSource.IRelationalDataSource;
-import jdk.nashorn.internal.runtime.RecompilableScriptFunctionData;
 
 import java.sql.ResultSet;
-import java.sql.SQLDataException;
 import java.sql.SQLException;
 import java.util.ArrayList;
 import java.util.List;
@@ -23,8 +21,31 @@ public class PlaylistDAO extends DAO {
     }
 
     public List GetList() {
-        ResultSet rs = dataSource.getResultSet();
+        ResultSet rs = dataSource.getList();
         List list = resultSetToList(rs);
+
+        ArrayList<ResultSet> resultSets = new ArrayList<ResultSet>();
+
+        for(Playlist p : (ArrayList<Playlist>)list){
+            resultSets.add(dataSource.find("SELECT * FROM Availability INNER JOIN Playlist on PlaylistPOID = FK_PlaylistPOID " +
+                    "INNER JOIN Track on TrackPOID = FK_TrackPOID Where owner = " + p.getOwner()));
+
+            try{
+            while(rs.next()) {
+                Track track = new Track();
+
+                    track.setTitle(rs.getString("title"));
+                    track.setUrl(rs.getString("url"));
+                    track.setPerformer(rs.getString("performer"));
+                    track.setDuration(rs.getInt("duration"));
+
+                p.add(track);
+            }}catch (Exception e){
+                e.printStackTrace();
+            }
+        }
+
+
         return list;
 
     }
