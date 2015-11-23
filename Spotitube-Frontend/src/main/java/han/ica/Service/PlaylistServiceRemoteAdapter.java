@@ -41,6 +41,12 @@ public class PlaylistServiceRemoteAdapter implements PlaylistService {
         }
     }
 
+    @Override
+    public void addTrack(int playlistId, int trackId) {
+
+    }
+
+
     public void addPlaylist(Playlist playlist) {
 
     }

@@ -12,7 +12,7 @@ public interface PlaylistService {
 
     List<Playlist> getPlaylists(String owner);
 
-    void addTrack(Playlist playlist, Track track);
+    void addTrack(int playlistId, int trackId);
 
     void addPlaylist(Playlist playlist);
 

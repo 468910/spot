@@ -11,6 +11,8 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
 import java.util.ArrayList;
+import java.util.List;
+
 @Singleton
 public class AddTrackPageController extends HttpServlet {
 
@@ -50,13 +52,10 @@ public class AddTrackPageController extends HttpServlet {
             req.setAttribute("playlistName", req.getParameter("searchTrack"));
         }
 
-        //go through all tracks
-        for (Track track : tracks) {
-            System.out.println(track.getTitle());
-        }
+        trackModel.getTracks("goedemorgen");
 
         //set tracks to list
-        req.setAttribute("list", tracks);
+        req.setAttribute("list", trackModel.tracks);
 
         //use this view in /addtrack
         req.getRequestDispatcher("tracks.jsp").forward(req, resp);

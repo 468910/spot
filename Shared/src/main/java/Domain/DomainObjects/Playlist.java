@@ -1,5 +1,6 @@
 package Domain.DomainObjects;
 
+import java.util.ArrayList;
 import java.util.List;
 
 /**
@@ -38,12 +39,12 @@ public class Playlist extends Entity {
 
     public Availability availability;
 
-    public List<Track> getTracks() {
+    public ArrayList<Track> getTracks() {
         return tracks;
     }
 
 
-    private List<Track> tracks;
+    private ArrayList<Track> tracks = new ArrayList<Track>();
 
     public void add(Track track){
         tracks.add(track);

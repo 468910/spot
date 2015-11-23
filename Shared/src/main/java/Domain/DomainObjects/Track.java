@@ -11,6 +11,17 @@ public class Track extends Entity {
     private String url;
     private long duration;
 
+    public Track(String performer, String title, String url, long duration) {
+        this.performer = performer;
+        this.title = title;
+        this.url = url;
+        this.duration = duration;
+    }
+
+    public Track(){
+
+    }
+
     public Availability getAvailability() {
         return availability;
     }

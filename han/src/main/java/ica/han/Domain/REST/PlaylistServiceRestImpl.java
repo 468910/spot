@@ -46,12 +46,12 @@ public class PlaylistServiceRestImpl implements PlaylistService {
     @Path("/addtrack")
     @POST
     @Consumes
-    public void addTrack(@PathParam("playlist")Playlist playlist, @PathParam("track")Track track) {
-        System.out.println("Adding track to :" + playlist.getName());
+    public void addTrack(@PathParam("playlistid") int playlistId, @PathParam("playlistid")  int trackId) {
+        System.out.println("Adding track to playlist");
 
         Availability availability = new Availability();
-        availability.setTrack_Id(track.getId());
-        availability.setPlaylist_Id(playlist.getId());
+        availability.setTrack_Id(trackId);
+        availability.setPlaylist_Id(playlistId);
 
         ((AvailabilityDAO)daoManager.getDAO(DAOManager.Table.Availability)).insert(availability);
     }

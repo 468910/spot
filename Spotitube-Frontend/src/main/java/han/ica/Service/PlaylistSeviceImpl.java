@@ -20,6 +20,12 @@ public class PlaylistSeviceImpl implements PlaylistService {
                 return null;
         }
 
+        @Override
+        public void addTrack(int playlistId, int trackId) {
+
+        }
+
+
         public void addPlaylist(Playlist playlist) {
 
         }

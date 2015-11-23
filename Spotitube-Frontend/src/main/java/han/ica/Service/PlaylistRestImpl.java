@@ -10,7 +10,9 @@ import javax.ws.rs.client.Client;
 import javax.ws.rs.client.ClientBuilder;
 import javax.ws.rs.client.Entity;
 import javax.ws.rs.client.WebTarget;
+import javax.ws.rs.core.GenericType;
 import javax.ws.rs.core.MediaType;
+import java.util.ArrayList;
 import java.util.List;
 
 /**
@@ -29,9 +31,16 @@ public class PlaylistRestImpl implements PlaylistService {
     public List<Playlist> getPlaylists(String owner) {
        Client client =  ClientBuilder.newClient().register(JacksonFeature.class);
         WebTarget target = client.target(baseurl + "playlists/" + owner);
-        return target.request(MediaType.APPLICATION_JSON).get(List.class);
+        return target.request(MediaType.APPLICATION_JSON).get(new GenericType<List<Playlist>>(){});
 
     }
+
+    @Override
+    public void addTrack(int playlistId, int trackId) {
+
+    }
+
+
 
     public void addPlaylist(Playlist playlist) {
         Client client = ClientBuilder.newClient().register(JacksonFeature.class);
@@ -42,7 +51,8 @@ public class PlaylistRestImpl implements PlaylistService {
     @Override
     public List<Track> getAllTracks(String searchTerm) {
         Client client = ClientBuilder.newClient().register(JacksonFeature.class);
-        WebTarget target = client.target(baseurl + "playlists/track/{" + searchTerm + "}");
+        WebTarget target = client.target(baseurl + "playlists/tracks/" + searchTerm);
+        //target.getUriBuilder().path("{searchTerm}").build(searchTerm);
         return target.request(MediaType.APPLICATION_JSON).get(List.class);
     }
 }

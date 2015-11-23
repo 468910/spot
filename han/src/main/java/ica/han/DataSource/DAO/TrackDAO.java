@@ -20,8 +20,8 @@ public class TrackDAO extends DAO {
     }
 
     public List findByTitle(String searchTerm){
-        ResultSet rs = dataSource.find("SELECT * FROM " + Track.class.getSimpleName()
-                + " WHERE title =" + "'" + searchTerm + "'");
+        ResultSet rs = dataSource.find("SELECT * FROM " + Track.class.getSimpleName());
+                //+ " WHERE title =" + "'" + searchTerm + "'");
         List list = new ArrayList();
         try {
             while (rs.next()) {
@@ -31,6 +31,8 @@ public class TrackDAO extends DAO {
         }catch (Exception e){
             e.printStackTrace();
         }
+
+        System.out.println("Hier is de searchterm" + searchTerm);
 
         return list;
     }

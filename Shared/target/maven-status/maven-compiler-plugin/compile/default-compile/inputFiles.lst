@@ -1,9 +1,8 @@
-C:\Users\Kiki\Desktop\spot\spotgit\spot\Shared\src\main\java\Domain\DomainObjects\Playlist.java
-C:\Users\Kiki\Desktop\spot\spotgit\spot\Shared\src\main\java\Domain\Service\PlaylistService.java
-C:\Users\Kiki\Desktop\spot\spotgit\spot\Shared\src\main\java\Domain\Service\RemotePlayListService.java
-C:\Users\Kiki\Desktop\spot\spotgit\spot\Shared\src\main\java\Domain\Service\TrackService.java
-C:\Users\Kiki\Desktop\spot\spotgit\spot\Shared\src\main\java\Domain\DomainObjects\Track.java
-C:\Users\Kiki\Desktop\spot\spotgit\spot\Shared\src\main\java\Domain\DomainObjects\Song.java
-C:\Users\Kiki\Desktop\spot\spotgit\spot\Shared\src\main\java\Domain\DomainObjects\Availability.java
-C:\Users\Kiki\Desktop\spot\spotgit\spot\Shared\src\main\java\Domain\DomainObjects\Video.java
-C:\Users\Kiki\Desktop\spot\spotgit\spot\Shared\src\main\java\Domain\DomainObjects\Entity.java
+/Users/apple/Documents/Patterns/Opdracht/SpotiTube/Shared/src/main/java/Domain/DomainObjects/Song.java
+/Users/apple/Documents/Patterns/Opdracht/SpotiTube/Shared/src/main/java/Domain/DomainObjects/Availability.java
+/Users/apple/Documents/Patterns/Opdracht/SpotiTube/Shared/src/main/java/Domain/DomainObjects/Playlist.java
+/Users/apple/Documents/Patterns/Opdracht/SpotiTube/Shared/src/main/java/Domain/Service/RemotePlayListService.java
+/Users/apple/Documents/Patterns/Opdracht/SpotiTube/Shared/src/main/java/Domain/DomainObjects/Video.java
+/Users/apple/Documents/Patterns/Opdracht/SpotiTube/Shared/src/main/java/Domain/DomainObjects/Track.java
+/Users/apple/Documents/Patterns/Opdracht/SpotiTube/Shared/src/main/java/Domain/DomainObjects/Entity.java
+/Users/apple/Documents/Patterns/Opdracht/SpotiTube/Shared/src/main/java/Domain/Service/PlaylistService.java

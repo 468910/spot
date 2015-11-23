@@ -132,6 +132,7 @@ public class MySqlRelationalDataSource<T> implements IRelationalDataSource {
             statement.setString(3, ((Track)entity).getTitle());
             statement.setString(4, ((Track)entity).getUrl());
             statement.setLong(5, ((Track)entity).getDuration());
+            return statement;
         }
 
         if(typeParameterClass.getSimpleName().equals("Video")){

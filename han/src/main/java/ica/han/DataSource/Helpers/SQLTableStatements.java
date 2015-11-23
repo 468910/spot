@@ -7,7 +7,7 @@ public class SQLTableStatements {
     public static String CREATE_TABLE_PLAYLIST = "CREATE TABLE Playlist " +
                                                  "(PlaylistPOID INTEGER not NULL AUTO_INCREMENT PRIMARY KEY, " +
                                                  " owner VARCHAR(255) not NULL," +
-                                                 " name VARCHAR(255) not NULL)";
+                                                 " name VARCHAR(255) not NULL UNIQUE)";
 
 
 

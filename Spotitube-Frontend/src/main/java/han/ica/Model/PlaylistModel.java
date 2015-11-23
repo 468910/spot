@@ -1,6 +1,7 @@
 package han.ica.Model;
 
 import Domain.DomainObjects.Playlist;
+import Domain.DomainObjects.Track;
 import Domain.Service.PlaylistService;
 import com.google.inject.Inject;
 
@@ -13,7 +14,7 @@ import java.util.List;
 public class PlaylistModel {
 
     private final PlaylistService playlistService;
-    public List<Playlist> playlists  = new ArrayList<>();
+    public List<Playlist> playlists  = new ArrayList<Playlist>();
 
     @Inject
     public PlaylistModel(PlaylistService playlistService){

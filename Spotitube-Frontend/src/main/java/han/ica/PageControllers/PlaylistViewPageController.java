@@ -2,6 +2,7 @@ package han.ica.PageControllers;
 
 
 import Domain.DomainObjects.Playlist;
+import Domain.DomainObjects.Track;
 import com.google.inject.Inject;
 import com.google.inject.Singleton;
 import han.ica.Model.PlaylistModel;
@@ -27,12 +28,12 @@ public class PlaylistViewPageController extends HttpServlet {
     }
 
 
-    List<Playlist> playlists = new ArrayList<>();
-    MyBean myBean = new MyBean();
 
     @Override
     protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
-        req.setAttribute("list", playlists);
+        playlistModel.getAllPlaylists(abonnee);
+        req.setAttribute("list", playlistModel.playlists);
+        System.out.println(" the number of tracks " + playlistModel.playlists.get(0).getTracks().size());
 
         //To set the playlistname which will be eddited later.
         req.setAttribute("myBean", prap);
@@ -45,7 +46,7 @@ public class PlaylistViewPageController extends HttpServlet {
     protected void doPost(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
         //To add a new playlist
         if(req.getParameter("submitTrack") != null){
-            playlists.add(new Playlist(2, abonnee, req.getParameter("newPlaylistName")));
+            playlistModel.insert(new Playlist(2, abonnee, req.getParameter("newPlaylistName")));
             resp.sendRedirect("playlist");
         }
 
@@ -59,7 +60,7 @@ public class PlaylistViewPageController extends HttpServlet {
 
         //Changing the chosen playlistname
         if (req.getParameter("changeListName") != null) {
-            for (Playlist playlist : playlists) {
+            for (Playlist playlist : (ArrayList<Playlist>)playlistModel.playlists ) {
                 if (playlist.getName().equals(prap)) {
                     playlist.setName(req.getParameter("newTrackName"));
                     resp.sendRedirect("playlist");
