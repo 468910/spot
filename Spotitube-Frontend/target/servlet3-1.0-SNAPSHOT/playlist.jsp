@@ -51,18 +51,18 @@
         <tr>
             <th> Name</th>
             <th> Owner</th>
-            <th> Availability</th>
             <th> Select</th>
+            <th> Availability</th>
         </tr>
         <c:forEach var ="item" items="${list}" varStatus="status">
         <tr>
             <td>${item.name} </td>
             <td>${item.owner}</td>
-            <td>${item.availability}</td>
             <td>
                 <input type="radio" name="radioButton" value="${item.name}">
                 <input type="submit" name="editThisList" value="edit this">
             </td>
+            <td>${item.availability}</td>
         </tr>
         </c:forEach>
     </table>
@@ -78,7 +78,8 @@
             add track:
         </form>
         <form action="${pageContext.request.contextPath}/addtrack" method="get">
-            <input type="submit" name="searchTrack" value="${myBean}">
+        tracks = ${tracks}
+            <br/><input type="submit" name="searchTrack" value="${myBean}${tracks}">
         </form>
     </div>
 </div>

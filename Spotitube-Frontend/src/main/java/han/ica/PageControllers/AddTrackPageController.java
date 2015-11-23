@@ -3,6 +3,7 @@ package han.ica.PageControllers;
 import Domain.DomainObjects.Track;
 import com.google.inject.Inject;
 import com.google.inject.Singleton;
+import han.ica.Model.PlaylistModel;
 import han.ica.Model.TrackModel;
 
 import javax.servlet.ServletException;
@@ -11,16 +12,17 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
 import java.util.ArrayList;
-import java.util.List;
 
 @Singleton
 public class AddTrackPageController extends HttpServlet {
 
     private final TrackModel trackModel;
+    private final PlaylistModel playlistModel;
 
     @Inject
-    public AddTrackPageController(TrackModel trackModel){
+    public AddTrackPageController(TrackModel trackModel, PlaylistModel playlistModel){
         this.trackModel = trackModel;
+        this.playlistModel = playlistModel;
     }
 
     @Override
