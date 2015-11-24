@@ -36,13 +36,11 @@ public class PlaylistViewPageController extends HttpServlet {
         //To set the playlistname which will be eddited later.
         req.setAttribute("myBean", prap);
 
-//            String[] tracksInList = new String[0];
-        List<String> tracksInList = new ArrayList<String>();
+        List<String> tracksInList = new ArrayList<>();
         for(int i = 0; i < playlistModel.playlists.get(3).getTracks().size(); i++ ){
             System.out.println("lets add some tracks" + playlistModel.playlists.get(3).getTracks().get(i).getTitle());
             tracksInList.add(playlistModel.playlists.get(3).getTracks().get(i).getTitle());
             System.out.println("tracks:: " + tracksInList);
-//                System.out.println(playlistModel.playlists.get(3).getTracks().get(i).getTitle());
             req.setAttribute("tracks", tracksInList);
         }
 
@@ -79,12 +77,6 @@ public class PlaylistViewPageController extends HttpServlet {
         //Go to /addtrack
         if(req.getParameter("searchTrack") != null){
             System.out.println(" the number of tracks " + playlistModel.playlists.get(0).getTracks().size());
-
-
-            //req.setAttribute("tracks", playlistModel.playlists.get(0).getTracks());
-
-
-
             resp.sendRedirect("addtrack");
         }
 

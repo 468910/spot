@@ -2,20 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="228bdb06-e406-428b-83fc-df9ec247a4d3" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Shared/target/shared-1.0-SNAPSHOT.jar" afterPath="$PROJECT_DIR$/Shared/target/shared-1.0-SNAPSHOT.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Spotitube-Frontend/target/classes/han/ica/PageControllers/AddTrackPageController.class" afterPath="$PROJECT_DIR$/Spotitube-Frontend/target/classes/han/ica/PageControllers/AddTrackPageController.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Spotitube-Frontend/target/classes/han/ica/PageControllers/PlaylistViewPageController.class" afterPath="$PROJECT_DIR$/Spotitube-Frontend/target/classes/han/ica/PageControllers/PlaylistViewPageController.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Spotitube-Frontend/target/servlet3-1.0-SNAPSHOT.war" afterPath="$PROJECT_DIR$/Spotitube-Frontend/target/servlet3-1.0-SNAPSHOT.war" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Spotitube-Frontend/target/servlet3-1.0-SNAPSHOT/WEB-INF/classes/han/ica/PageControllers/AddTrackPageController.class" afterPath="$PROJECT_DIR$/Spotitube-Frontend/target/servlet3-1.0-SNAPSHOT/WEB-INF/classes/han/ica/PageControllers/AddTrackPageController.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Spotitube-Frontend/target/servlet3-1.0-SNAPSHOT/WEB-INF/classes/han/ica/PageControllers/PlaylistViewPageController.class" afterPath="$PROJECT_DIR$/Spotitube-Frontend/target/servlet3-1.0-SNAPSHOT/WEB-INF/classes/han/ica/PageControllers/PlaylistViewPageController.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Spotitube-Frontend/servlet3.iml" afterPath="$PROJECT_DIR$/Spotitube-Frontend/servlet3.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Spotitube-Frontend/src/main/java/han/ica/PageControllers/AddTrackPageController.java" afterPath="$PROJECT_DIR$/Spotitube-Frontend/src/main/java/han/ica/PageControllers/AddTrackPageController.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Spotitube-Frontend/src/main/java/han/ica/PageControllers/PlaylistViewPageController.java" afterPath="$PROJECT_DIR$/Spotitube-Frontend/src/main/java/han/ica/PageControllers/PlaylistViewPageController.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Spotitube-Frontend/src/main/webapp/playlist.jsp" afterPath="$PROJECT_DIR$/Spotitube-Frontend/src/main/webapp/playlist.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Spotitube-Frontend/target/maven-archiver/pom.properties" afterPath="$PROJECT_DIR$/Spotitube-Frontend/target/maven-archiver/pom.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Spotitube-Frontend/target/servlet3-1.0-SNAPSHOT/playlist.jsp" afterPath="$PROJECT_DIR$/Spotitube-Frontend/target/servlet3-1.0-SNAPSHOT/playlist.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Spotitube-Frontend/src/main/webapp/tracks.jsp" afterPath="$PROJECT_DIR$/Spotitube-Frontend/src/main/webapp/tracks.jsp" />
     </list>
     <ignored path="spot.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -41,18 +32,28 @@
       <file leaf-file-name="AddTrackPageController.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Spotitube-Frontend/src/main/java/han/ica/PageControllers/AddTrackPageController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="29" column="0" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
+            <state vertical-scroll-proportion="-8.068966">
+              <caret line="34" column="52" selection-start-line="34" selection-start-column="52" selection-end-line="34" selection-end-column="52" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="playlist.jsp" pinned="false" current-in-tab="true">
+      <file leaf-file-name="tracks.jsp" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Spotitube-Frontend/src/main/webapp/tracks.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.3501529">
+              <caret line="23" column="38" selection-start-line="23" selection-start-column="38" selection-end-line="23" selection-end-column="38" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="playlist.jsp" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Spotitube-Frontend/src/main/webapp/playlist.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.7538226">
-              <caret line="81" column="74" selection-start-line="81" selection-start-column="74" selection-end-line="81" selection-end-column="74" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="66" column="20" selection-start-line="56" selection-start-column="8" selection-end-line="66" selection-end-column="20" />
               <folding />
             </state>
           </provider>
@@ -61,13 +62,9 @@
       <file leaf-file-name="PlaylistViewPageController.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Spotitube-Frontend/src/main/java/han/ica/PageControllers/PlaylistViewPageController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="8.344828">
-              <caret line="52" column="13" selection-start-line="52" selection-start-column="13" selection-end-line="52" selection-end-column="13" />
-              <folding>
-                <element signature="e#782#783#0" expanded="true" />
-                <element signature="e#832#833#0" expanded="true" />
-                <element signature="e#1279#1287#0" expanded="true" />
-              </folding>
+            <state vertical-scroll-proportion="0.0">
+              <caret line="71" column="31" selection-start-line="71" selection-start-column="31" selection-end-line="71" selection-end-column="31" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -106,10 +103,10 @@
         <option value="$PROJECT_DIR$/Spotitube-Frontend/src/main/java/han/ica/PageControllers/MyBean.java" />
         <option value="$PROJECT_DIR$/Spotitube-Frontend/src/main/webapp/editList.jsp" />
         <option value="$PROJECT_DIR$/Spotitube-Frontend/src/main/webapp/style.css" />
-        <option value="$PROJECT_DIR$/Spotitube-Frontend/src/main/webapp/tracks.jsp" />
-        <option value="$PROJECT_DIR$/Spotitube-Frontend/src/main/java/han/ica/PageControllers/AddTrackPageController.java" />
         <option value="$PROJECT_DIR$/Spotitube-Frontend/src/main/java/han/ica/PageControllers/PlaylistViewPageController.java" />
         <option value="$PROJECT_DIR$/Spotitube-Frontend/src/main/webapp/playlist.jsp" />
+        <option value="$PROJECT_DIR$/Spotitube-Frontend/src/main/java/han/ica/PageControllers/AddTrackPageController.java" />
+        <option value="$PROJECT_DIR$/Spotitube-Frontend/src/main/webapp/tracks.jsp" />
       </list>
     </option>
   </component>
@@ -155,8 +152,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="Scratches" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -358,301 +355,6 @@
     <property name="settings.editor.selected.configurable" value="configurable.group.language" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
-  </component>
-  <component name="RestoreUpdateTree" date="Moments ago" ActionInfo="_Update">
-    <UpdatedFiles>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Updated from server" />
-        <option name="myStatusName" value="Changed on server" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="CHANGED_ON_SERVER" />
-        <FILE-GROUP>
-          <option name="myUpdateName" value="Updated" />
-          <option name="myStatusName" value="Changed" />
-          <option name="mySupportsDeletion" value="false" />
-          <option name="myCanBeAbsent" value="false" />
-          <option name="myId" value="UPDATED" />
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/Shared/Shared.iml</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/Shared/src/main/java/Domain/DomainObjects/Availability.java</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/Shared/src/main/java/Domain/DomainObjects/Playlist.java</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/Shared/src/main/java/Domain/DomainObjects/Track.java</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/Shared/src/main/java/Domain/Service/PlaylistService.java</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/Shared/target/classes/Domain/DomainObjects/Availability.class</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/Shared/target/classes/Domain/DomainObjects/Playlist.class</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/Shared/target/classes/Domain/DomainObjects/Track.class</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/Shared/target/classes/Domain/Service/PlaylistService.class</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/Shared/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/Shared/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/Shared/target/shared-1.0-SNAPSHOT.jar</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/Spotitube-Frontend/SPT-FE.iml</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/Spotitube-Frontend/src/main/java/han/ica/Model/PlaylistModel.java</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/Spotitube-Frontend/src/main/java/han/ica/Model/TrackModel.java</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/Spotitube-Frontend/src/main/java/han/ica/PageControllers/AddTrackPageController.java</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/Spotitube-Frontend/src/main/java/han/ica/PageControllers/PlaylistViewPageController.java</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/Spotitube-Frontend/src/main/java/han/ica/Service/PlaylistRestImpl.java</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/Spotitube-Frontend/src/main/java/han/ica/Service/PlaylistServiceRemoteAdapter.java</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/Spotitube-Frontend/src/main/java/han/ica/Service/PlaylistSeviceImpl.java</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/Spotitube-Frontend/target/classes/han/ica/PageControllers/AddTrackPageController.class</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/Spotitube-Frontend/target/classes/han/ica/PageControllers/PlaylistViewPageController.class</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/Spotitube-Frontend/target/maven-archiver/pom.properties</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/Spotitube-Frontend/target/servlet3-1.0-SNAPSHOT.war</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/Spotitube-Frontend/target/servlet3-1.0-SNAPSHOT/WEB-INF/classes/han/ica/PageControllers/AddTrackPageController.class</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/Spotitube-Frontend/target/servlet3-1.0-SNAPSHOT/WEB-INF/classes/han/ica/PageControllers/PlaylistViewPageController.class</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/Spotitube-Frontend/target/servlet3-1.0-SNAPSHOT/tracks.jsp</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/han/.idea/artifacts/SPT_FE_war.xml</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/han/.idea/artifacts/SPT_FE_war_exploded.xml</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/han/.idea/encodings.xml</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/han/.idea/misc.xml</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/han/.idea/workspace.xml</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/han/src/main/java/ica/han/App.java</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/han/src/main/java/ica/han/DataSource/DAO/PlaylistDAO.java</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/han/src/main/java/ica/han/DataSource/DAO/SongDAO.java</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/han/src/main/java/ica/han/DataSource/DAO/TrackDAO.java</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/han/src/main/java/ica/han/DataSource/Helpers/SQLStoredProcedures.java</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/han/src/main/java/ica/han/DataSource/Helpers/SQLTableStatements.java</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/han/src/main/java/ica/han/DataSource/IRelationalDataSource.java</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/han/src/main/java/ica/han/DataSource/MySqlRelationalDataSource.java</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/han/src/main/java/ica/han/Domain/REST/PlaylistServiceRestImpl.java</PATH>
-        </FILE-GROUP>
-        <FILE-GROUP>
-          <option name="myUpdateName" value="Created" />
-          <option name="myStatusName" value="Created" />
-          <option name="mySupportsDeletion" value="false" />
-          <option name="myCanBeAbsent" value="false" />
-          <option name="myId" value="CREATED" />
-        </FILE-GROUP>
-        <FILE-GROUP>
-          <option name="myUpdateName" value="Deleted" />
-          <option name="myStatusName" value="Deleted" />
-          <option name="mySupportsDeletion" value="false" />
-          <option name="myCanBeAbsent" value="true" />
-          <option name="myId" value="REMOVED_FROM_REPOSITORY" />
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/Shared/src/main/java/Domain/Service/TrackService.java</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/Shared/target/classes/Domain/Service/TrackService.class</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/Spotitube-Frontend/src/main/java/han/ica/PageControllers/MyBean.java</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/Spotitube-Frontend/target/classes/han/ica/Model/PlaylistModel.class</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/Spotitube-Frontend/target/classes/han/ica/Model/TrackModel.class</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/Spotitube-Frontend/target/classes/han/ica/Service/PlaylistRestImpl.class</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/Spotitube-Frontend/target/classes/han/ica/Service/PlaylistServiceRemoteAdapter.class</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/Spotitube-Frontend/target/classes/han/ica/Service/PlaylistServiceRemoteImpl.class</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/Spotitube-Frontend/target/classes/han/ica/Service/PlaylistSeviceImpl.class</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/Spotitube-Frontend/target/classes/han/ica/Util/GuiceServletConfig.class</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/Spotitube-Frontend/target/classes/han/ica/Util/GuiceWebFilter.class</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/Spotitube-Frontend/target/classes/han/ica/Util/MyServletModule.class</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/Spotitube-Frontend/target/servlet3-1.0-SNAPSHOT/PageControllers/AddTrackPageController.java</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/Spotitube-Frontend/target/servlet3-1.0-SNAPSHOT/PageControllers/PlaylistModule.java</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/Spotitube-Frontend/target/servlet3-1.0-SNAPSHOT/PageControllers/PlaylistViewPageController.java</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/Spotitube-Frontend/target/servlet3-1.0-SNAPSHOT/WEB-INF/classes/han/ica/Model/PlaylistModel.class</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/Spotitube-Frontend/target/servlet3-1.0-SNAPSHOT/WEB-INF/classes/han/ica/Model/TrackModel.class</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/Spotitube-Frontend/target/servlet3-1.0-SNAPSHOT/WEB-INF/classes/han/ica/Service/PlaylistRestImpl.class</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/Spotitube-Frontend/target/servlet3-1.0-SNAPSHOT/WEB-INF/classes/han/ica/Service/PlaylistServiceRemoteAdapter.class</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/Spotitube-Frontend/target/servlet3-1.0-SNAPSHOT/WEB-INF/classes/han/ica/Service/PlaylistServiceRemoteImpl.class</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/Spotitube-Frontend/target/servlet3-1.0-SNAPSHOT/WEB-INF/classes/han/ica/Service/PlaylistSeviceImpl.class</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/Spotitube-Frontend/target/servlet3-1.0-SNAPSHOT/WEB-INF/classes/han/ica/Util/GuiceServletConfig.class</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/Spotitube-Frontend/target/servlet3-1.0-SNAPSHOT/WEB-INF/classes/han/ica/Util/GuiceWebFilter.class</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/Spotitube-Frontend/target/servlet3-1.0-SNAPSHOT/WEB-INF/classes/han/ica/Util/MyServletModule.class</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/Spotitube-Frontend/target/servlet3-1.0-SNAPSHOT/WEB-INF/lib/aopalliance-1.0.jar</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/Spotitube-Frontend/target/servlet3-1.0-SNAPSHOT/WEB-INF/lib/aopalliance-repackaged-2.4.0-b32.jar</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/Spotitube-Frontend/target/servlet3-1.0-SNAPSHOT/WEB-INF/lib/guava-16.0.1.jar</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/Spotitube-Frontend/target/servlet3-1.0-SNAPSHOT/WEB-INF/lib/guice-4.0.jar</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/Spotitube-Frontend/target/servlet3-1.0-SNAPSHOT/WEB-INF/lib/guice-bridge-2.4.0-b32.jar</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/Spotitube-Frontend/target/servlet3-1.0-SNAPSHOT/WEB-INF/lib/guice-servlet-4.0.jar</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/Spotitube-Frontend/target/servlet3-1.0-SNAPSHOT/WEB-INF/lib/hk2-api-2.4.0-b32.jar</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/Spotitube-Frontend/target/servlet3-1.0-SNAPSHOT/WEB-INF/lib/hk2-locator-2.4.0-b31.jar</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/Spotitube-Frontend/target/servlet3-1.0-SNAPSHOT/WEB-INF/lib/hk2-utils-2.4.0-b32.jar</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/Spotitube-Frontend/target/servlet3-1.0-SNAPSHOT/WEB-INF/lib/jackson-core-asl-1.9.13.jar</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/Spotitube-Frontend/target/servlet3-1.0-SNAPSHOT/WEB-INF/lib/jackson-jaxrs-1.9.13.jar</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/Spotitube-Frontend/target/servlet3-1.0-SNAPSHOT/WEB-INF/lib/jackson-mapper-asl-1.9.13.jar</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/Spotitube-Frontend/target/servlet3-1.0-SNAPSHOT/WEB-INF/lib/jackson-xc-1.9.13.jar</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/Spotitube-Frontend/target/servlet3-1.0-SNAPSHOT/WEB-INF/lib/javassist-3.18.1-GA.jar</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/Spotitube-Frontend/target/servlet3-1.0-SNAPSHOT/WEB-INF/lib/javax.annotation-api-1.2.jar</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/Spotitube-Frontend/target/servlet3-1.0-SNAPSHOT/WEB-INF/lib/javax.inject-1.jar</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/Spotitube-Frontend/target/servlet3-1.0-SNAPSHOT/WEB-INF/lib/javax.inject-2.4.0-b31.jar</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/Spotitube-Frontend/target/servlet3-1.0-SNAPSHOT/WEB-INF/lib/javax.servlet.jsp.jstl-api-1.2.1.jar</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/Spotitube-Frontend/target/servlet3-1.0-SNAPSHOT/WEB-INF/lib/javax.ws.rs-api-2.0.1.jar</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/Spotitube-Frontend/target/servlet3-1.0-SNAPSHOT/WEB-INF/lib/jersey-client-2.22.1.jar</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/Spotitube-Frontend/target/servlet3-1.0-SNAPSHOT/WEB-INF/lib/jersey-common-2.22.1.jar</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/Spotitube-Frontend/target/servlet3-1.0-SNAPSHOT/WEB-INF/lib/jersey-guava-2.22.1.jar</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/Spotitube-Frontend/target/servlet3-1.0-SNAPSHOT/WEB-INF/lib/jersey-media-json-jackson-2.7.jar</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/Spotitube-Frontend/target/servlet3-1.0-SNAPSHOT/WEB-INF/lib/jstl-1.2.jar</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/Spotitube-Frontend/target/servlet3-1.0-SNAPSHOT/WEB-INF/lib/osgi-resource-locator-1.0.1.jar</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/Spotitube-Frontend/target/servlet3-1.0-SNAPSHOT/WEB-INF/lib/shared-1.0-SNAPSHOT.jar</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/Spotitube-Frontend/target/servlet3-1.0-SNAPSHOT/hello.jsp</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/han/src/main/java/ica/han/Domain/REST/TrackServiceRestImpl.java</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/han/target/classes/Database.properties</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/han/target/classes/ica/han/App.class</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/han/target/classes/ica/han/DataSource/DAO/AvailabilityDAO.class</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/han/target/classes/ica/han/DataSource/DAO/DAO.class</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/han/target/classes/ica/han/DataSource/DAO/DAOManager$1.class</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/han/target/classes/ica/han/DataSource/DAO/DAOManager$Table$1.class</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/han/target/classes/ica/han/DataSource/DAO/DAOManager$Table$2.class</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/han/target/classes/ica/han/DataSource/DAO/DAOManager$Table$3.class</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/han/target/classes/ica/han/DataSource/DAO/DAOManager$Table$4.class</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/han/target/classes/ica/han/DataSource/DAO/DAOManager$Table$5.class</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/han/target/classes/ica/han/DataSource/DAO/DAOManager$Table.class</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/han/target/classes/ica/han/DataSource/DAO/DAOManager.class</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/han/target/classes/ica/han/DataSource/DAO/PlaylistDAO.class</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/han/target/classes/ica/han/DataSource/DAO/SongDAO.class</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/han/target/classes/ica/han/DataSource/DAO/TrackDAO.class</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/han/target/classes/ica/han/DataSource/DAO/VideoDAO.class</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/han/target/classes/ica/han/DataSource/Helpers/Mappers/PlaylistMapper.class</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/han/target/classes/ica/han/DataSource/Helpers/SQLTableStatements.class</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/han/target/classes/ica/han/DataSource/IRelationalDataSource.class</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/han/target/classes/ica/han/DataSource/MySqlRelationalDataSource.class</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/han/target/classes/ica/han/Domain/POJO/RemotePlaylistServiceImpl.class</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/han/target/classes/ica/han/Domain/POJO/Server.class</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/han/target/classes/ica/han/Domain/REST/MyServletModule.class</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/han/target/classes/ica/han/Domain/REST/PlaylistServiceRestImpl.class</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/han/target/classes/ica/han/Domain/REST/RestResourceConfig.class</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/han/target/classes/ica/han/Domain/REST/TrackServiceRestImpl.class</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/han/target/han-1.0-SNAPSHOT.war</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/han/target/han-1.0-SNAPSHOT/WEB-INF/classes/Database.properties</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/han/target/han-1.0-SNAPSHOT/WEB-INF/classes/ica/han/App.class</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/han/target/han-1.0-SNAPSHOT/WEB-INF/classes/ica/han/DataSource/DAO/AvailabilityDAO.class</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/han/target/han-1.0-SNAPSHOT/WEB-INF/classes/ica/han/DataSource/DAO/DAO.class</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/han/target/han-1.0-SNAPSHOT/WEB-INF/classes/ica/han/DataSource/DAO/DAOManager$1.class</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/han/target/han-1.0-SNAPSHOT/WEB-INF/classes/ica/han/DataSource/DAO/DAOManager$Table$1.class</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/han/target/han-1.0-SNAPSHOT/WEB-INF/classes/ica/han/DataSource/DAO/DAOManager$Table$2.class</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/han/target/han-1.0-SNAPSHOT/WEB-INF/classes/ica/han/DataSource/DAO/DAOManager$Table$3.class</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/han/target/han-1.0-SNAPSHOT/WEB-INF/classes/ica/han/DataSource/DAO/DAOManager$Table$4.class</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/han/target/han-1.0-SNAPSHOT/WEB-INF/classes/ica/han/DataSource/DAO/DAOManager$Table$5.class</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/han/target/han-1.0-SNAPSHOT/WEB-INF/classes/ica/han/DataSource/DAO/DAOManager$Table.class</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/han/target/han-1.0-SNAPSHOT/WEB-INF/classes/ica/han/DataSource/DAO/DAOManager.class</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/han/target/han-1.0-SNAPSHOT/WEB-INF/classes/ica/han/DataSource/DAO/PlaylistDAO.class</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/han/target/han-1.0-SNAPSHOT/WEB-INF/classes/ica/han/DataSource/DAO/SongDAO.class</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/han/target/han-1.0-SNAPSHOT/WEB-INF/classes/ica/han/DataSource/DAO/TrackDAO.class</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/han/target/han-1.0-SNAPSHOT/WEB-INF/classes/ica/han/DataSource/DAO/VideoDAO.class</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/han/target/han-1.0-SNAPSHOT/WEB-INF/classes/ica/han/DataSource/Helpers/Mappers/PlaylistMapper.class</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/han/target/han-1.0-SNAPSHOT/WEB-INF/classes/ica/han/DataSource/Helpers/SQLTableStatements.class</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/han/target/han-1.0-SNAPSHOT/WEB-INF/classes/ica/han/DataSource/IRelationalDataSource.class</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/han/target/han-1.0-SNAPSHOT/WEB-INF/classes/ica/han/DataSource/MySqlRelationalDataSource.class</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/han/target/han-1.0-SNAPSHOT/WEB-INF/classes/ica/han/Domain/POJO/RemotePlaylistServiceImpl.class</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/han/target/han-1.0-SNAPSHOT/WEB-INF/classes/ica/han/Domain/POJO/Server.class</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/han/target/han-1.0-SNAPSHOT/WEB-INF/classes/ica/han/Domain/REST/MyServletModule.class</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/han/target/han-1.0-SNAPSHOT/WEB-INF/classes/ica/han/Domain/REST/PlaylistServiceRestImpl.class</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/han/target/han-1.0-SNAPSHOT/WEB-INF/classes/ica/han/Domain/REST/RestResourceConfig.class</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/han/target/han-1.0-SNAPSHOT/WEB-INF/classes/ica/han/Domain/REST/TrackServiceRestImpl.class</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/han/target/han-1.0-SNAPSHOT/WEB-INF/lib/aopalliance-1.0.jar</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/han/target/han-1.0-SNAPSHOT/WEB-INF/lib/aopalliance-repackaged-2.4.0-b32.jar</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/han/target/han-1.0-SNAPSHOT/WEB-INF/lib/guava-16.0.1.jar</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/han/target/han-1.0-SNAPSHOT/WEB-INF/lib/guice-4.0.jar</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/han/target/han-1.0-SNAPSHOT/WEB-INF/lib/guice-bridge-2.4.0-b25.jar</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/han/target/han-1.0-SNAPSHOT/WEB-INF/lib/guice-servlet-4.0.jar</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/han/target/han-1.0-SNAPSHOT/WEB-INF/lib/hk2-api-2.4.0-b32.jar</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/han/target/han-1.0-SNAPSHOT/WEB-INF/lib/hk2-locator-2.4.0-b31.jar</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/han/target/han-1.0-SNAPSHOT/WEB-INF/lib/hk2-utils-2.4.0-b32.jar</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/han/target/han-1.0-SNAPSHOT/WEB-INF/lib/jackson-annotations-2.3.2.jar</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/han/target/han-1.0-SNAPSHOT/WEB-INF/lib/jackson-core-2.3.2.jar</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/han/target/han-1.0-SNAPSHOT/WEB-INF/lib/jackson-databind-2.3.2.jar</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/han/target/han-1.0-SNAPSHOT/WEB-INF/lib/jackson-jaxrs-base-2.3.2.jar</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/han/target/han-1.0-SNAPSHOT/WEB-INF/lib/jackson-jaxrs-json-provider-2.3.2.jar</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/han/target/han-1.0-SNAPSHOT/WEB-INF/lib/jackson-module-jaxb-annotations-2.3.2.jar</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/han/target/han-1.0-SNAPSHOT/WEB-INF/lib/javassist-3.18.1-GA.jar</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/han/target/han-1.0-SNAPSHOT/WEB-INF/lib/javax.annotation-api-1.2.jar</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/han/target/han-1.0-SNAPSHOT/WEB-INF/lib/javax.inject-1.jar</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/han/target/han-1.0-SNAPSHOT/WEB-INF/lib/javax.inject-2.4.0-b31.jar</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/han/target/han-1.0-SNAPSHOT/WEB-INF/lib/javax.ws.rs-api-2.0.1.jar</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/han/target/han-1.0-SNAPSHOT/WEB-INF/lib/jersey-client-2.22.jar</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/han/target/han-1.0-SNAPSHOT/WEB-INF/lib/jersey-common-2.22.jar</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/han/target/han-1.0-SNAPSHOT/WEB-INF/lib/jersey-container-servlet-2.22.jar</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/han/target/han-1.0-SNAPSHOT/WEB-INF/lib/jersey-container-servlet-core-2.22.jar</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/han/target/han-1.0-SNAPSHOT/WEB-INF/lib/jersey-guava-2.22.jar</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/han/target/han-1.0-SNAPSHOT/WEB-INF/lib/jersey-media-jaxb-2.22.jar</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/han/target/han-1.0-SNAPSHOT/WEB-INF/lib/jersey-media-json-jackson-2.13.jar</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/han/target/han-1.0-SNAPSHOT/WEB-INF/lib/jersey-server-2.22.jar</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/han/target/han-1.0-SNAPSHOT/WEB-INF/lib/mysql-connector-java-5.1.37.jar</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/han/target/han-1.0-SNAPSHOT/WEB-INF/lib/osgi-resource-locator-1.0.1.jar</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/han/target/han-1.0-SNAPSHOT/WEB-INF/lib/shared-1.0-SNAPSHOT.jar</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/han/target/han-1.0-SNAPSHOT/WEB-INF/lib/validation-api-1.1.0.Final.jar</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/han/target/maven-archiver/pom.properties</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/han/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/han/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/han/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/han/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/han/target/surefire-reports/TEST-ica.han.AppTest.xml</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/han/target/surefire-reports/ica.han.AppTest.txt</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/han/target/test-classes/ica/han/AppTest.class</PATH>
-        </FILE-GROUP>
-        <FILE-GROUP>
-          <option name="myUpdateName" value="Restored" />
-          <option name="myStatusName" value="Will be restored" />
-          <option name="mySupportsDeletion" value="false" />
-          <option name="myCanBeAbsent" value="false" />
-          <option name="myId" value="RESTORED" />
-        </FILE-GROUP>
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Modified" />
-        <option name="myStatusName" value="Modified" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="MODIFIED" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Skipped" />
-        <option name="myStatusName" value="Skipped" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="SKIPPED" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Merged with conflicts" />
-        <option name="myStatusName" value="Will be merged with conflicts" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="MERGED_WITH_CONFLICTS" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Merged with tree conflicts" />
-        <option name="myStatusName" value="Merged with tree conflicts" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="MERGED_WITH_TREE_CONFLICT" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Merged with property conflicts" />
-        <option name="myStatusName" value="Will be merged with property conflicts" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="MERGED_WITH_PROPERTY_CONFLICT" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Merged" />
-        <option name="myStatusName" value="Will be merged" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="MERGED" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Not in repository" />
-        <option name="myStatusName" value="Not in repository" />
-        <option name="mySupportsDeletion" value="true" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="UNKNOWN" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Locally added" />
-        <option name="myStatusName" value="Locally added" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="LOCALLY_ADDED" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Locally removed" />
-        <option name="myStatusName" value="Locally removed" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="LOCALLY_REMOVED" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Switched" />
-        <option name="myStatusName" value="Switched" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="SWITCHED" />
-      </FILE-GROUP>
-    </UpdatedFiles>
   </component>
   <component name="RunManager">
     <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
@@ -957,7 +659,13 @@
       <option name="project" value="LOCAL" />
       <updated>1448210627699</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="unfinished business&#10;">
+      <created>1448316745695</created>
+      <option name="number" value="00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1448316745695</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -1003,7 +711,8 @@
     <MESSAGE value="front commit all" />
     <MESSAGE value="made it all a little more fancy" />
     <MESSAGE value="changed for to foreach" />
-    <option name="LAST_COMMIT_MESSAGE" value="changed for to foreach" />
+    <MESSAGE value="unfinished business&#10;" />
+    <option name="LAST_COMMIT_MESSAGE" value="unfinished business&#10;" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -1014,11 +723,18 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/Spotitube-Frontend/src/main/java/han/ica/PageControllers/PlaylistViewPageController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="52" column="13" selection-start-line="52" selection-start-column="13" selection-end-line="52" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Spotitube-Frontend/src/main/webapp/style.css">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="98" column="13" selection-start-line="98" selection-start-column="13" selection-end-line="98" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1048,11 +764,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="47" column="25" selection-start-line="47" selection-start-column="19" selection-end-line="47" selection-end-column="25" />
-          <folding>
-            <element signature="e#782#783#0" expanded="true" />
-            <element signature="e#832#833#0" expanded="true" />
-            <element signature="e#1279#1287#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1075,7 +787,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="85" column="25" selection-start-line="85" selection-start-column="25" selection-end-line="85" selection-end-column="25" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1317,15 +1028,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="2.8197768">
           <caret line="104" column="4" selection-start-line="104" selection-start-column="4" selection-end-line="104" selection-end-column="4" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Spotitube-Frontend/src/main/webapp/tracks.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.2950558">
-          <caret line="22" column="28" selection-start-line="22" selection-start-column="28" selection-end-line="22" selection-end-column="28" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1333,7 +1035,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1349,7 +1050,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="57" column="0" selection-start-line="57" selection-start-column="0" selection-end-line="57" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1357,34 +1057,37 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.08133971">
           <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Spotitube-Frontend/src/main/java/han/ica/PageControllers/PlaylistViewPageController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="71" column="31" selection-start-line="71" selection-start-column="31" selection-end-line="71" selection-end-column="31" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Spotitube-Frontend/src/main/java/han/ica/PageControllers/AddTrackPageController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="29" column="0" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
+        <state vertical-scroll-proportion="-8.068966">
+          <caret line="34" column="52" selection-start-line="34" selection-start-column="52" selection-end-line="34" selection-end-column="52" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Spotitube-Frontend/src/main/java/han/ica/PageControllers/PlaylistViewPageController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="8.344828">
-          <caret line="52" column="13" selection-start-line="52" selection-start-column="13" selection-end-line="52" selection-end-column="13" />
-          <folding>
-            <element signature="e#782#783#0" expanded="true" />
-            <element signature="e#832#833#0" expanded="true" />
-            <element signature="e#1279#1287#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Spotitube-Frontend/src/main/webapp/playlist.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.7538226">
-          <caret line="81" column="74" selection-start-line="81" selection-start-column="74" selection-end-line="81" selection-end-column="74" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="66" column="20" selection-start-line="56" selection-start-column="8" selection-end-line="66" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Spotitube-Frontend/src/main/webapp/tracks.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.3501529">
+          <caret line="23" column="38" selection-start-line="23" selection-start-column="38" selection-end-line="23" selection-end-column="38" />
           <folding />
         </state>
       </provider>
