@@ -79,7 +79,9 @@
         </form>
         <form action="${pageContext.request.contextPath}/addtrack" method="get">
         tracks = ${tracks}
-            <br/><input type="submit" name="searchTrack" value="${myBean}${tracks}">
+            <input type='text' value="${myBean}" name="playlistName">
+            <input type="text" value="${tracks}" name="tracksInList">
+            <br/><input type="submit" name="searchTrack">
         </form>
     </div>
 </div>

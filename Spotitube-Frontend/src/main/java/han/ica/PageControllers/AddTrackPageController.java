@@ -32,6 +32,7 @@ public class AddTrackPageController extends HttpServlet {
         System.out.println(playListName);
         String[] tracksInList = req.getParameter("tracksInList").split("[\\W]");
 
+        //deze 2
         if(req.getParameter("searchTrack") != null){
             req.setAttribute("playlistName", playListName);
             req.setAttribute("tracksInList", tracksInList);
