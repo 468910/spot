@@ -17,7 +17,7 @@ import java.util.Objects;
 
 @Singleton // Required
 public class PlaylistViewPageController extends HttpServlet {
-    private final String abonnee = "yay"; //of abonnee: test
+    private final String abonnee = "test"; //of abonnee: test
     private final PlaylistModel playlistModel;
     public String playlistName = "";
     public String playlistID = "";

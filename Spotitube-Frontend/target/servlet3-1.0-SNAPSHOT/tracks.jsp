@@ -40,22 +40,29 @@
 </table>
 <br/><br/>
 Choose tracks to add to this playlist:
+<form method="post">
 <table border="1">
   <tr>
+    <th> ID</th>
     <th> Performer</th>
     <th> Title</th>
     <th> Url</th>
     <th> Duration</th>
+    <th> Add</th>
   </tr>
-  <c:forEach var ="item" items="${list}">
+  <c:forEach var ="item" items="${allTracks}">
     <tr>
+      <td>${item.id}</td>
       <td>${item.performer} </td>
       <td>${item.title}</td>
       <td>${item.url}</td>
       <td>${item.duration}</td>
+      <td><input type="checkbox" value="item" name="addToPlaylist"></td>
     </tr>
   </c:forEach>
 </table>
+<input type="submit" name="addItemsToPlaylist">
+</form>
 </div>
 </body>
 </html>
