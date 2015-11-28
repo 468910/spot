@@ -21,7 +21,25 @@
 <%@include file="nav.html"%>
 <div id="wrapper">
 <h1>Playlist: ${playlistName}</h1>
-<h1>tracks In List:</h1>
+<h1>ListID: ${playlistID} | tracks In List:</h1>
+<table border="1">
+  <tr>
+    <th> Performer</th>
+    <th> Title</th>
+    <th> Url</th>
+    <th> Duration</th>
+  </tr>
+  <c:forEach var ="item" items="${list}">
+    <tr>
+      <td>${item.performer} </td>
+      <td>${item.title}</td>
+      <td>${item.url}</td>
+      <td>${item.duration}</td>
+    </tr>
+  </c:forEach>
+</table>
+<br/><br/>
+Choose tracks to add to this playlist:
 <table border="1">
   <tr>
     <th> Performer</th>

@@ -60,6 +60,7 @@
             <td>${item.owner}</td>
             <td>
                 <input type="radio" name="radioButton" value="${item.name}">
+                List id: <input type="radio" name="listID" value="${item.id}">
                 <input type="submit" name="editThisList" value="edit this">
             </td>
             <td>${item.availability}</td>
@@ -73,14 +74,13 @@
     <div id="searchTrack">
         <form action="${pageContext.request.contextPath}/playlist" method="post">
             Title: <input type='text' value="${myBean}" name="newTrackName">
-            <input type="submit" value="kiez deze naam" name="changeListName" onclick="toggle_visibility(['searchTrack']);"><br/>
+            <input type="submit" value="Kies deze naam" name="changeListName" onclick="toggle_visibility(['searchTrack']);"><br/>
             Choose at least 1 track before you can submit "search for file".<br/>
             add track:
         </form>
         <form action="${pageContext.request.contextPath}/addtrack" method="get">
-        tracks = ${tracks}
-            <input type='text' value="${myBean}" name="playlistName">
-            <input type="text" value="${tracks}" name="tracksInList">
+            Playlist: <input type="text" value="${myBean}" name="playlistName"><br/>
+            ID: <input type="text" value="${playlistID}" name="playlistID">
             <br/><input type="submit" name="searchTrack">
         </form>
     </div>

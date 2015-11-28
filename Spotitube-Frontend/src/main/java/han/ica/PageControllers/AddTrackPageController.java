@@ -27,47 +27,36 @@ public class AddTrackPageController extends HttpServlet {
 
     @Override
     protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
-        //set playlistname in h1 element
-        playlistModel.getAllPlaylists("test");
-        for(int i = 0; i < playlistModel.playlists.size(); i++) {
-            System.out.println("-START---------------------------------------");
-            System.out.println(playlistModel.playlists.get(i).getName());
-            System.out.println(playlistModel.playlists.get(i).getOwner());
-            for(int j = 0; j < playlistModel.playlists.get(i).getTracks().size(); j++){
-                System.out.println("-#--------------------------------------------");
-                System.out.println(playlistModel.playlists.get(i).getTracks().get(j).getTitle());
-                System.out.println(playlistModel.playlists.get(i).getTracks().get(j).getPerformer());
-                System.out.println("-#--------------------------------------------");
-            }
-            System.out.println(playlistModel.playlists.get(i).getId());
-            System.out.println("-END------------------------------------------");
-        }
-
-        String playListName   = req.getParameter("playlistName");
-        System.out.println(playListName);
-        String[] tracksInList = req.getParameter("tracksInList").split("[\\W]");
-
-        //deze 2
+        /* If searchTrack isn't empty, then set the attribute playlistname to playlistname
+         */
+        String playListName = req.getParameter("playlistName");
         if(req.getParameter("searchTrack") != null){
             req.setAttribute("playlistName", playListName);
         }
+        playlistModel.getAllPlaylists(playListName);
 
+        /* Set the H1 element: ListID to the right id
+         */
+        int playlistID = Integer.parseInt(req.getParameter("playlistID"));
+        req.setAttribute("playlistID", playlistID);
 
-        trackModel.getTracks("goedemorgen");
-        trackModel.getTracks("Zondag");
+        /* Match playlistID to one of the id's to find the right playlist
+         */
+        for(int i = 0; i < playlistModel.playlists.size(); i++){
+            if(playlistModel.playlists.get(i).getId() == playlistID){
+                for(int j = 0; j < playlistModel.playlists.get(i).getTracks().size(); j++){
+                    req.setAttribute("list", playlistModel.playlists.get(i).getTracks());
+                }
+            }
+        }
 
-
-        //set tracks to list
-//        req.setAttribute("list", trackModel.tracks);
-        req.setAttribute("list", playlistModel.playlists.get(3).getTracks());
-
-        //use this view in /addtrack
+        /* Use this view in /addtrack
+         */
         req.getRequestDispatcher("tracks.jsp").forward(req, resp);
     }
 
     @Override
     protected void doPost(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
 
-        //req.getRequestDispatcher("tracks.jsp").forward(req, resp);
     }
 }
