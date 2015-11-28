@@ -28,6 +28,21 @@ public class AddTrackPageController extends HttpServlet {
     @Override
     protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
         //set playlistname in h1 element
+        playlistModel.getAllPlaylists("test");
+        for(int i = 0; i < playlistModel.playlists.size(); i++) {
+            System.out.println("-START---------------------------------------");
+            System.out.println(playlistModel.playlists.get(i).getName());
+            System.out.println(playlistModel.playlists.get(i).getOwner());
+            for(int j = 0; j < playlistModel.playlists.get(i).getTracks().size(); j++){
+                System.out.println("-#--------------------------------------------");
+                System.out.println(playlistModel.playlists.get(i).getTracks().get(j).getTitle());
+                System.out.println(playlistModel.playlists.get(i).getTracks().get(j).getPerformer());
+                System.out.println("-#--------------------------------------------");
+            }
+            System.out.println(playlistModel.playlists.get(i).getId());
+            System.out.println("-END------------------------------------------");
+        }
+
         String playListName   = req.getParameter("playlistName");
         System.out.println(playListName);
         String[] tracksInList = req.getParameter("tracksInList").split("[\\W]");
@@ -35,7 +50,6 @@ public class AddTrackPageController extends HttpServlet {
         //deze 2
         if(req.getParameter("searchTrack") != null){
             req.setAttribute("playlistName", playListName);
-            req.setAttribute("tracksInList", tracksInList);
         }
 
 
@@ -44,7 +58,8 @@ public class AddTrackPageController extends HttpServlet {
 
 
         //set tracks to list
-        req.setAttribute("list", trackModel.tracks);
+//        req.setAttribute("list", trackModel.tracks);
+        req.setAttribute("list", playlistModel.playlists.get(3).getTracks());
 
         //use this view in /addtrack
         req.getRequestDispatcher("tracks.jsp").forward(req, resp);

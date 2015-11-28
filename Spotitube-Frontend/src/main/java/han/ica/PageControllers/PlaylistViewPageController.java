@@ -22,7 +22,7 @@ public class PlaylistViewPageController extends HttpServlet {
     private final String abonnee = "test";
     private final PlaylistModel playlistModel;
 
-    public String prap = "";
+    public String playlistName = "";
     public int radId;
     @Inject
     public PlaylistViewPageController(PlaylistModel playlistModel){
@@ -35,44 +35,19 @@ public class PlaylistViewPageController extends HttpServlet {
         req.setAttribute("list", playlistModel.playlists);
 
         //To set the playlistname which will be eddited later.
-        req.setAttribute("myBean", prap);
-
-        String plName = "";
-        String plOwner = "";
-        String plID = "";
-        String plPerformer = "";
-        String plTitle = "";
-        List<String> plTitles = new ArrayList<>();
-        List<String> plPerformers = new ArrayList<>();
-
-        List<Object> t = new ArrayList<>();
-        for(int i = 0; i < playlistModel.playlists.size(); i++) {
-            System.out.println("-START---------------------------------------");
-            System.out.println(playlistModel.playlists.get(i).getName());
-            System.out.println(playlistModel.playlists.get(i).getOwner());
-            for(int j = 0; j < playlistModel.playlists.get(i).getTracks().size(); j++){
-                System.out.println("-#--------------------------------------------");
-                System.out.println(playlistModel.playlists.get(i).getTracks().get(j).getTitle());
-                System.out.println(playlistModel.playlists.get(i).getTracks().get(j).getPerformer());
-                System.out.println("-#--------------------------------------------");
-                plTitles.add(plTitle);
-                plPerformers.add(plPerformer);
-            }
-            System.out.println(playlistModel.playlists.get(i).getId());
-            System.out.println("-END------------------------------------------");
-        }
+        req.setAttribute("myBean", playlistName);
 
         List<String> tracksInList = new ArrayList<>();
-        for(int j = 0; j < playlistModel.playlists.size(); j++) {
-            if(playlistModel.playlists.get(j).getName() == prap) {
-                for (int i = 0; i < playlistModel.playlists.get(j).getTracks().size(); i++) {
-                    System.out.println("lets add some tracks" + playlistModel.playlists.get(3).getTracks().get(i).getTitle());
-                    tracksInList.add(playlistModel.playlists.get(j).getTracks().get(i).getTitle());
+//        for(int j = 0; j < playlistModel.playlists.size(); j++) {
+//            if(playlistModel.playlists.get(j).getName() == playlistName ) {
+                for (int i = 0; i < playlistModel.playlists.get(1).getTracks().size(); i++) {
+                    System.out.println("lets add some tracks" + playlistModel.playlists.get(1).getTracks().get(i).getTitle());
+                    tracksInList.add(playlistModel.playlists.get(1).getTracks().get(i).getTitle());
                     System.out.println("tracks:: " + tracksInList);
                     req.setAttribute("tracks", tracksInList);
                 }
-            }
-        }
+//            }
+//        }
 
         //User this view on /playlist
         req.getRequestDispatcher("playlist.jsp").forward(req, resp);
@@ -86,19 +61,19 @@ public class PlaylistViewPageController extends HttpServlet {
             resp.sendRedirect("playlist");
         }
 
-        //Set prap to current name to be used in next ifstatement
+        //Set playlistName to current name to be used in next ifstatement
         if(req.getParameter("editThisList") != null){
 
-            prap = req.getParameter("radioButton");
+            playlistName = req.getParameter("radioButton");
 
-            req.setAttribute("myBean", prap);
+            req.setAttribute("myBean", playlistName);
             resp.sendRedirect("playlist");
         }
 
         //Changing the chosen playlistname
         if (req.getParameter("changeListName") != null) {
             for (Playlist playlist : (ArrayList<Playlist>)playlistModel.playlists ) {
-                if (playlist.getName().equals(prap)) {
+                if (playlist.getName().equals(playlistName)) {
                     playlist.setName(req.getParameter("newTrackNamet"));
                 }
             }
