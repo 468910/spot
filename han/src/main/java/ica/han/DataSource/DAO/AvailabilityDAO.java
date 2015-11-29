@@ -1,7 +1,7 @@
 package ica.han.DataSource.DAO;
 
 import Domain.DomainObjects.Entity;
-import ica.han.DataSource.IRelationalDataSource;
+import ica.han.DataSource.Database.IDataSource;
 
 import java.sql.ResultSet;
 import java.sql.SQLException;
@@ -14,16 +14,11 @@ public class AvailabilityDAO extends DAO {
 
 
     @Override
-    List<Entity> GetList() {
+    public List GetList() {
         return null;
     }
 
-    @Override
-    protected Entity rowToObject(ResultSet rs) throws SQLException {
-        return null;
-    }
-
-    public AvailabilityDAO(IRelationalDataSource dataSource) {
+    public AvailabilityDAO(IDataSource dataSource) {
         super(dataSource);
     }
 

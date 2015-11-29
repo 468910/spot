@@ -1,6 +1,7 @@
 package Domain.Service;
 
 
+import Domain.DomainObjects.Availability;
 import Domain.DomainObjects.Playlist;
 import Domain.DomainObjects.Track;
 
@@ -12,7 +13,7 @@ public interface PlaylistService {
 
     List<Playlist> getPlaylists(String owner);
 
-    void addTrack(int playlistId, int trackId);
+    void addTrack(Availability availability);
 
     void addPlaylist(Playlist playlist);
 

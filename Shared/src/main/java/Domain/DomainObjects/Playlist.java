@@ -13,7 +13,9 @@ public class Playlist extends Entity {
         this.name = name;
     }
 
-    public Playlist(){}
+    public Playlist(){
+
+    }
 
 
 

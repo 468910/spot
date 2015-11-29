@@ -44,8 +44,8 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel target="1.8">
-      <module name="han" target="1.5" />
-      <module name="Shared" target="1.5" />
+      <module name="han" target="1.8" />
+      <module name="Shared" target="1.8" />
       <module name="SPT-FE" target="1.8" />
     </bytecodeTargetLevel>
   </component>

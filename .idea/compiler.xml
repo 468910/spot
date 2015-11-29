@@ -30,11 +30,13 @@
         <outputRelativeToContentRoot value="true" />
         <processorPath useClasspath="true" />
         <module name="shared" />
+        <module name="Shared" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="servlet3" target="1.8" />
       <module name="shared" target="1.5" />
+      <module name="Shared" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>

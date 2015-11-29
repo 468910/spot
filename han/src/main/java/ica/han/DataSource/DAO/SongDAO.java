@@ -2,7 +2,7 @@ package ica.han.DataSource.DAO;
 
 import Domain.DomainObjects.Entity;
 import Domain.DomainObjects.Song;
-import ica.han.DataSource.IRelationalDataSource;
+import ica.han.DataSource.Database.IDataSource;
 
 import java.sql.ResultSet;
 import java.sql.SQLException;
@@ -14,31 +14,13 @@ import java.util.List;
  */
 public class SongDAO extends DAO {
 
-    public List GetList() {
-        ResultSet rs = dataSource.getList();
-        List list = new ArrayList();
-        try {
-            while (rs.next()) {
-                Song song = (Song)rowToObject(rs);
-
-                list.add(song);
-            }
-        }catch (Exception e){
-            e.printStackTrace();
-        }
-
-        return list;
-    }
-
 
     @Override
-    protected Entity rowToObject(ResultSet rs) throws SQLException {
-        Song song = new Song();
-        song.setAlbum(rs.getString("album"));
-        return song;
+    public List GetList() {
+        return null;
     }
 
-    public SongDAO(IRelationalDataSource dataSource) {
+    public SongDAO(IDataSource dataSource) {
         super(dataSource);
     }
 }

@@ -2,9 +2,224 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="228bdb06-e406-428b-83fc-df9ec247a4d3" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Spotitube-Frontend/src/main/java/han/ica/PageControllers/AddTrackPageController.java" afterPath="$PROJECT_DIR$/Spotitube-Frontend/src/main/java/han/ica/PageControllers/AddTrackPageController.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Spotitube-Frontend/src/main/java/han/ica/PageControllers/PlaylistViewPageController.java" afterPath="$PROJECT_DIR$/Spotitube-Frontend/src/main/java/han/ica/PageControllers/PlaylistViewPageController.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/han/.idea/libraries/Maven__javax_servlet_javax_servlet_api_3_0_1.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/han/.idea/libraries/Maven__javax_servlet_jstl_1_2.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/han/.idea/libraries/Maven__junit_junit_4_8_2.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/han/.idea/libraries/Maven__org_codehaus_jackson_jackson_core_asl_1_9_13.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/han/.idea/libraries/Maven__org_codehaus_jackson_jackson_jaxrs_1_9_13.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/han/.idea/libraries/Maven__org_codehaus_jackson_jackson_mapper_asl_1_9_13.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/han/.idea/libraries/Maven__org_codehaus_jackson_jackson_xc_1_9_13.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/han/.idea/libraries/Maven__org_glassfish_hk2_guice_bridge_2_4_0_b32.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/han/.idea/libraries/Maven__org_glassfish_jersey_bundles_repackaged_jersey_guava_2_22_1.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/han/.idea/libraries/Maven__org_glassfish_jersey_core_jersey_client_2_22_1.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/han/.idea/libraries/Maven__org_glassfish_jersey_core_jersey_common_2_22_1.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/han/.idea/libraries/Maven__org_glassfish_jersey_media_jersey_media_json_jackson_2_7.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/han/.idea/libraries/lib.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/han/src/main/java/ica/han/DataSource/Database/AvailabilitySQLDataSource.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/han/src/main/java/ica/han/DataSource/Database/IDataSource.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/han/src/main/java/ica/han/DataSource/Database/PlaylistSQLDataSource.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/han/src/main/java/ica/han/DataSource/Database/SQLDataSource.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/han/src/main/java/ica/han/DataSource/Database/SongSQLDataSource.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/han/src/main/java/ica/han/DataSource/Database/TrackSQLDataSource.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/han/src/main/java/ica/han/DataSource/Database/VideoSQLDataSource.java" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Shared/target/classes/Domain/DomainObjects/Availability.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Shared/target/classes/Domain/DomainObjects/Entity.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Shared/target/classes/Domain/DomainObjects/Playlist.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Shared/target/classes/Domain/DomainObjects/Song.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Shared/target/classes/Domain/DomainObjects/Track.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Shared/target/classes/Domain/DomainObjects/Video.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Shared/target/classes/Domain/Service/PlaylistService.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Shared/target/classes/Domain/Service/RemotePlayListService.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Shared/target/maven-archiver/pom.properties" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Shared/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Shared/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Shared/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Shared/target/shared-1.0-SNAPSHOT.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Spotitube-Frontend/target/classes/han/ica/Model/PlaylistModel.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Spotitube-Frontend/target/classes/han/ica/Model/TrackModel.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Spotitube-Frontend/target/classes/han/ica/PageControllers/MyBean.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Spotitube-Frontend/target/classes/han/ica/PageControllers/PlaylistViewPageController$MyBean.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Spotitube-Frontend/target/classes/han/ica/Service/PlaylistRestImpl$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Spotitube-Frontend/target/classes/han/ica/Service/PlaylistRestImpl.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Spotitube-Frontend/target/classes/han/ica/Service/PlaylistServiceRemoteAdapter.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Spotitube-Frontend/target/classes/han/ica/Service/PlaylistServiceRemoteImpl.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Spotitube-Frontend/target/classes/han/ica/Service/PlaylistSeviceImpl.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Spotitube-Frontend/target/classes/han/ica/Util/GuiceServletConfig.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Spotitube-Frontend/target/classes/han/ica/Util/GuiceWebFilter.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Spotitube-Frontend/target/classes/han/ica/Util/MyServletModule.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Spotitube-Frontend/target/servlet3-1.0-SNAPSHOT/WEB-INF/classes/han/ica/Model/PlaylistModel.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Spotitube-Frontend/target/servlet3-1.0-SNAPSHOT/WEB-INF/classes/han/ica/Model/TrackModel.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Spotitube-Frontend/target/servlet3-1.0-SNAPSHOT/WEB-INF/classes/han/ica/PageControllers/MyBean.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Spotitube-Frontend/target/servlet3-1.0-SNAPSHOT/WEB-INF/classes/han/ica/PageControllers/PlaylistViewPageController$MyBean.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Spotitube-Frontend/target/servlet3-1.0-SNAPSHOT/WEB-INF/classes/han/ica/Service/PlaylistRestImpl$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Spotitube-Frontend/target/servlet3-1.0-SNAPSHOT/WEB-INF/classes/han/ica/Service/PlaylistRestImpl.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Spotitube-Frontend/target/servlet3-1.0-SNAPSHOT/WEB-INF/classes/han/ica/Service/PlaylistServiceRemoteAdapter.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Spotitube-Frontend/target/servlet3-1.0-SNAPSHOT/WEB-INF/classes/han/ica/Service/PlaylistServiceRemoteImpl.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Spotitube-Frontend/target/servlet3-1.0-SNAPSHOT/WEB-INF/classes/han/ica/Service/PlaylistSeviceImpl.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Spotitube-Frontend/target/servlet3-1.0-SNAPSHOT/WEB-INF/classes/han/ica/Util/GuiceServletConfig.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Spotitube-Frontend/target/servlet3-1.0-SNAPSHOT/WEB-INF/classes/han/ica/Util/GuiceWebFilter.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Spotitube-Frontend/target/servlet3-1.0-SNAPSHOT/WEB-INF/classes/han/ica/Util/MyServletModule.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Spotitube-Frontend/target/servlet3-1.0-SNAPSHOT/WEB-INF/lib/aopalliance-1.0.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Spotitube-Frontend/target/servlet3-1.0-SNAPSHOT/WEB-INF/lib/aopalliance-repackaged-2.4.0-b32.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Spotitube-Frontend/target/servlet3-1.0-SNAPSHOT/WEB-INF/lib/guava-16.0.1.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Spotitube-Frontend/target/servlet3-1.0-SNAPSHOT/WEB-INF/lib/guice-4.0.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Spotitube-Frontend/target/servlet3-1.0-SNAPSHOT/WEB-INF/lib/guice-bridge-2.4.0-b32.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Spotitube-Frontend/target/servlet3-1.0-SNAPSHOT/WEB-INF/lib/guice-servlet-4.0.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Spotitube-Frontend/target/servlet3-1.0-SNAPSHOT/WEB-INF/lib/hk2-api-2.4.0-b32.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Spotitube-Frontend/target/servlet3-1.0-SNAPSHOT/WEB-INF/lib/hk2-locator-2.4.0-b31.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Spotitube-Frontend/target/servlet3-1.0-SNAPSHOT/WEB-INF/lib/hk2-utils-2.4.0-b32.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Spotitube-Frontend/target/servlet3-1.0-SNAPSHOT/WEB-INF/lib/jackson-core-asl-1.9.13.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Spotitube-Frontend/target/servlet3-1.0-SNAPSHOT/WEB-INF/lib/jackson-jaxrs-1.9.13.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Spotitube-Frontend/target/servlet3-1.0-SNAPSHOT/WEB-INF/lib/jackson-mapper-asl-1.9.13.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Spotitube-Frontend/target/servlet3-1.0-SNAPSHOT/WEB-INF/lib/jackson-xc-1.9.13.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Spotitube-Frontend/target/servlet3-1.0-SNAPSHOT/WEB-INF/lib/javassist-3.18.1-GA.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Spotitube-Frontend/target/servlet3-1.0-SNAPSHOT/WEB-INF/lib/javax.annotation-api-1.2.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Spotitube-Frontend/target/servlet3-1.0-SNAPSHOT/WEB-INF/lib/javax.inject-1.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Spotitube-Frontend/target/servlet3-1.0-SNAPSHOT/WEB-INF/lib/javax.inject-2.4.0-b31.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Spotitube-Frontend/target/servlet3-1.0-SNAPSHOT/WEB-INF/lib/javax.ws.rs-api-2.0.1.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Spotitube-Frontend/target/servlet3-1.0-SNAPSHOT/WEB-INF/lib/jersey-client-2.22.1.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Spotitube-Frontend/target/servlet3-1.0-SNAPSHOT/WEB-INF/lib/jersey-common-2.22.1.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Spotitube-Frontend/target/servlet3-1.0-SNAPSHOT/WEB-INF/lib/jersey-guava-2.22.1.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Spotitube-Frontend/target/servlet3-1.0-SNAPSHOT/WEB-INF/lib/jersey-media-json-jackson-2.7.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Spotitube-Frontend/target/servlet3-1.0-SNAPSHOT/WEB-INF/lib/jstl-1.2.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Spotitube-Frontend/target/servlet3-1.0-SNAPSHOT/WEB-INF/lib/osgi-resource-locator-1.0.1.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Spotitube-Frontend/target/servlet3-1.0-SNAPSHOT/WEB-INF/lib/shared-1.0-SNAPSHOT.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Spotitube-Frontend/target/servlet3-1.0-SNAPSHOT/editList.jsp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Spotitube-Frontend/target/servlet3-1.0-SNAPSHOT/hello.jsp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Spotitube-Frontend/target/servlet3-1.0-SNAPSHOT/nav.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Spotitube-Frontend/target/servlet3-1.0-SNAPSHOT/playlist.jsp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Spotitube-Frontend/target/servlet3-1.0-SNAPSHOT/style.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Spotitube-Frontend/target/servlet3-1.0-SNAPSHOT/tracks.jsp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/han/src/main/java/ica/han/DataSource/IRelationalDataSource.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/han/src/main/java/ica/han/DataSource/MySqlRelationalDataSource.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/han/target/classes/Database.properties" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/han/target/classes/ica/han/App.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/han/target/classes/ica/han/DataSource/DAO/AvailabilityDAO.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/han/target/classes/ica/han/DataSource/DAO/DAO.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/han/target/classes/ica/han/DataSource/DAO/DAOManager$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/han/target/classes/ica/han/DataSource/DAO/DAOManager$Table$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/han/target/classes/ica/han/DataSource/DAO/DAOManager$Table$2.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/han/target/classes/ica/han/DataSource/DAO/DAOManager$Table$3.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/han/target/classes/ica/han/DataSource/DAO/DAOManager$Table$4.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/han/target/classes/ica/han/DataSource/DAO/DAOManager$Table$5.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/han/target/classes/ica/han/DataSource/DAO/DAOManager$Table.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/han/target/classes/ica/han/DataSource/DAO/DAOManager.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/han/target/classes/ica/han/DataSource/DAO/PlaylistDAO.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/han/target/classes/ica/han/DataSource/DAO/SongDAO.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/han/target/classes/ica/han/DataSource/DAO/TrackDAO.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/han/target/classes/ica/han/DataSource/DAO/VideoDAO.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/han/target/classes/ica/han/DataSource/Helpers/Mappers/PlaylistMapper.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/han/target/classes/ica/han/DataSource/Helpers/SQLStoredProcedures.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/han/target/classes/ica/han/DataSource/Helpers/SQLTableStatements.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/han/target/classes/ica/han/DataSource/IRelationalDataSource.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/han/target/classes/ica/han/DataSource/MySqlRelationalDataSource.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/han/target/classes/ica/han/Domain/POJO/RemotePlaylistServiceImpl.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/han/target/classes/ica/han/Domain/POJO/Server.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/han/target/classes/ica/han/Domain/REST/MyServletModule.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/han/target/classes/ica/han/Domain/REST/PlaylistServiceRestImpl.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/han/target/classes/ica/han/Domain/REST/RestResourceConfig.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/han/target/han-1.0-SNAPSHOT.war" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/han/target/han-1.0-SNAPSHOT/WEB-INF/classes/Database.properties" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/han/target/han-1.0-SNAPSHOT/WEB-INF/classes/ica/han/App.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/han/target/han-1.0-SNAPSHOT/WEB-INF/classes/ica/han/DataSource/DAO/AvailabilityDAO.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/han/target/han-1.0-SNAPSHOT/WEB-INF/classes/ica/han/DataSource/DAO/DAO.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/han/target/han-1.0-SNAPSHOT/WEB-INF/classes/ica/han/DataSource/DAO/DAOManager$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/han/target/han-1.0-SNAPSHOT/WEB-INF/classes/ica/han/DataSource/DAO/DAOManager$Table$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/han/target/han-1.0-SNAPSHOT/WEB-INF/classes/ica/han/DataSource/DAO/DAOManager$Table$2.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/han/target/han-1.0-SNAPSHOT/WEB-INF/classes/ica/han/DataSource/DAO/DAOManager$Table$3.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/han/target/han-1.0-SNAPSHOT/WEB-INF/classes/ica/han/DataSource/DAO/DAOManager$Table$4.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/han/target/han-1.0-SNAPSHOT/WEB-INF/classes/ica/han/DataSource/DAO/DAOManager$Table$5.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/han/target/han-1.0-SNAPSHOT/WEB-INF/classes/ica/han/DataSource/DAO/DAOManager$Table.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/han/target/han-1.0-SNAPSHOT/WEB-INF/classes/ica/han/DataSource/DAO/DAOManager.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/han/target/han-1.0-SNAPSHOT/WEB-INF/classes/ica/han/DataSource/DAO/PlaylistDAO.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/han/target/han-1.0-SNAPSHOT/WEB-INF/classes/ica/han/DataSource/DAO/SongDAO.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/han/target/han-1.0-SNAPSHOT/WEB-INF/classes/ica/han/DataSource/DAO/TrackDAO.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/han/target/han-1.0-SNAPSHOT/WEB-INF/classes/ica/han/DataSource/DAO/VideoDAO.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/han/target/han-1.0-SNAPSHOT/WEB-INF/classes/ica/han/DataSource/Helpers/Mappers/PlaylistMapper.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/han/target/han-1.0-SNAPSHOT/WEB-INF/classes/ica/han/DataSource/Helpers/SQLStoredProcedures.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/han/target/han-1.0-SNAPSHOT/WEB-INF/classes/ica/han/DataSource/Helpers/SQLTableStatements.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/han/target/han-1.0-SNAPSHOT/WEB-INF/classes/ica/han/DataSource/IRelationalDataSource.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/han/target/han-1.0-SNAPSHOT/WEB-INF/classes/ica/han/DataSource/MySqlRelationalDataSource.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/han/target/han-1.0-SNAPSHOT/WEB-INF/classes/ica/han/Domain/POJO/RemotePlaylistServiceImpl.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/han/target/han-1.0-SNAPSHOT/WEB-INF/classes/ica/han/Domain/POJO/Server.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/han/target/han-1.0-SNAPSHOT/WEB-INF/classes/ica/han/Domain/REST/MyServletModule.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/han/target/han-1.0-SNAPSHOT/WEB-INF/classes/ica/han/Domain/REST/PlaylistServiceRestImpl.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/han/target/han-1.0-SNAPSHOT/WEB-INF/classes/ica/han/Domain/REST/RestResourceConfig.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/han/target/han-1.0-SNAPSHOT/WEB-INF/lib/aopalliance-1.0.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/han/target/han-1.0-SNAPSHOT/WEB-INF/lib/aopalliance-repackaged-2.4.0-b32.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/han/target/han-1.0-SNAPSHOT/WEB-INF/lib/guava-16.0.1.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/han/target/han-1.0-SNAPSHOT/WEB-INF/lib/guice-4.0.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/han/target/han-1.0-SNAPSHOT/WEB-INF/lib/guice-bridge-2.4.0-b25.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/han/target/han-1.0-SNAPSHOT/WEB-INF/lib/guice-servlet-4.0.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/han/target/han-1.0-SNAPSHOT/WEB-INF/lib/hk2-api-2.4.0-b32.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/han/target/han-1.0-SNAPSHOT/WEB-INF/lib/hk2-locator-2.4.0-b31.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/han/target/han-1.0-SNAPSHOT/WEB-INF/lib/hk2-utils-2.4.0-b32.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/han/target/han-1.0-SNAPSHOT/WEB-INF/lib/jackson-annotations-2.3.2.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/han/target/han-1.0-SNAPSHOT/WEB-INF/lib/jackson-core-2.3.2.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/han/target/han-1.0-SNAPSHOT/WEB-INF/lib/jackson-databind-2.3.2.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/han/target/han-1.0-SNAPSHOT/WEB-INF/lib/jackson-jaxrs-base-2.3.2.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/han/target/han-1.0-SNAPSHOT/WEB-INF/lib/jackson-jaxrs-json-provider-2.3.2.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/han/target/han-1.0-SNAPSHOT/WEB-INF/lib/jackson-module-jaxb-annotations-2.3.2.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/han/target/han-1.0-SNAPSHOT/WEB-INF/lib/javassist-3.18.1-GA.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/han/target/han-1.0-SNAPSHOT/WEB-INF/lib/javax.annotation-api-1.2.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/han/target/han-1.0-SNAPSHOT/WEB-INF/lib/javax.inject-1.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/han/target/han-1.0-SNAPSHOT/WEB-INF/lib/javax.inject-2.4.0-b31.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/han/target/han-1.0-SNAPSHOT/WEB-INF/lib/javax.ws.rs-api-2.0.1.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/han/target/han-1.0-SNAPSHOT/WEB-INF/lib/jersey-client-2.22.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/han/target/han-1.0-SNAPSHOT/WEB-INF/lib/jersey-common-2.22.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/han/target/han-1.0-SNAPSHOT/WEB-INF/lib/jersey-container-servlet-2.22.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/han/target/han-1.0-SNAPSHOT/WEB-INF/lib/jersey-container-servlet-core-2.22.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/han/target/han-1.0-SNAPSHOT/WEB-INF/lib/jersey-guava-2.22.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/han/target/han-1.0-SNAPSHOT/WEB-INF/lib/jersey-media-jaxb-2.22.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/han/target/han-1.0-SNAPSHOT/WEB-INF/lib/jersey-media-json-jackson-2.13.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/han/target/han-1.0-SNAPSHOT/WEB-INF/lib/jersey-server-2.22.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/han/target/han-1.0-SNAPSHOT/WEB-INF/lib/mysql-connector-java-5.1.37.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/han/target/han-1.0-SNAPSHOT/WEB-INF/lib/osgi-resource-locator-1.0.1.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/han/target/han-1.0-SNAPSHOT/WEB-INF/lib/shared-1.0-SNAPSHOT.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/han/target/han-1.0-SNAPSHOT/WEB-INF/lib/validation-api-1.1.0.Final.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/han/target/maven-archiver/pom.properties" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/han/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/han/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/han/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/han/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/han/target/surefire-reports/TEST-ica.han.AppTest.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/han/target/surefire-reports/ica.han.AppTest.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/han/target/test-classes/ica/han/AppTest.class" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Spotitube-Frontend/target/classes/han/ica/PageControllers/AddTrackPageController.class" afterPath="$PROJECT_DIR$/Spotitube-Frontend/target/classes/han/ica/PageControllers/AddTrackPageController.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Spotitube-Frontend/target/classes/han/ica/PageControllers/PlaylistViewPageController.class" afterPath="$PROJECT_DIR$/Spotitube-Frontend/target/classes/han/ica/PageControllers/PlaylistViewPageController.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Spotitube-Frontend/target/servlet3-1.0-SNAPSHOT.war" afterPath="$PROJECT_DIR$/Spotitube-Frontend/target/servlet3-1.0-SNAPSHOT.war" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Spotitube-Frontend/target/servlet3-1.0-SNAPSHOT/WEB-INF/classes/han/ica/PageControllers/AddTrackPageController.class" afterPath="$PROJECT_DIR$/Spotitube-Frontend/target/servlet3-1.0-SNAPSHOT/WEB-INF/classes/han/ica/PageControllers/AddTrackPageController.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Spotitube-Frontend/target/servlet3-1.0-SNAPSHOT/WEB-INF/classes/han/ica/PageControllers/PlaylistViewPageController.class" afterPath="$PROJECT_DIR$/Spotitube-Frontend/target/servlet3-1.0-SNAPSHOT/WEB-INF/classes/han/ica/PageControllers/PlaylistViewPageController.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/encodings.xml" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Shared/Shared.iml" afterPath="$PROJECT_DIR$/Shared/Shared.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Shared/pom.xml" afterPath="$PROJECT_DIR$/Shared/pom.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Shared/src/main/java/Domain/DomainObjects/Entity.java" afterPath="$PROJECT_DIR$/Shared/src/main/java/Domain/DomainObjects/Entity.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Shared/src/main/java/Domain/DomainObjects/Playlist.java" afterPath="$PROJECT_DIR$/Shared/src/main/java/Domain/DomainObjects/Playlist.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Shared/src/main/java/Domain/DomainObjects/Track.java" afterPath="$PROJECT_DIR$/Shared/src/main/java/Domain/DomainObjects/Track.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Shared/src/main/java/Domain/Service/PlaylistService.java" afterPath="$PROJECT_DIR$/Shared/src/main/java/Domain/Service/PlaylistService.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Spotitube-Frontend/SPT-FE.iml" afterPath="$PROJECT_DIR$/Spotitube-Frontend/SPT-FE.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Spotitube-Frontend/pom.xml" afterPath="$PROJECT_DIR$/Spotitube-Frontend/pom.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Spotitube-Frontend/src/main/java/han/ica/Service/PlaylistRestImpl.java" afterPath="$PROJECT_DIR$/Spotitube-Frontend/src/main/java/han/ica/Service/PlaylistRestImpl.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Spotitube-Frontend/src/main/java/han/ica/Service/PlaylistServiceRemoteAdapter.java" afterPath="$PROJECT_DIR$/Spotitube-Frontend/src/main/java/han/ica/Service/PlaylistServiceRemoteAdapter.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Spotitube-Frontend/src/main/java/han/ica/Service/PlaylistSeviceImpl.java" afterPath="$PROJECT_DIR$/Spotitube-Frontend/src/main/java/han/ica/Service/PlaylistSeviceImpl.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Spotitube-Frontend/target/maven-archiver/pom.properties" afterPath="$PROJECT_DIR$/Spotitube-Frontend/target/maven-archiver/pom.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/han/.idea/compiler.xml" afterPath="$PROJECT_DIR$/han/.idea/compiler.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/han/.idea/encodings.xml" afterPath="$PROJECT_DIR$/han/.idea/encodings.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/han/.idea/workspace.xml" afterPath="$PROJECT_DIR$/han/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/han/han.iml" afterPath="$PROJECT_DIR$/han/han.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/han/pom.xml" afterPath="$PROJECT_DIR$/han/pom.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/han/src/main/java/ica/han/App.java" afterPath="$PROJECT_DIR$/han/src/main/java/ica/han/App.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/han/src/main/java/ica/han/DataSource/DAO/AvailabilityDAO.java" afterPath="$PROJECT_DIR$/han/src/main/java/ica/han/DataSource/DAO/AvailabilityDAO.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/han/src/main/java/ica/han/DataSource/DAO/DAO.java" afterPath="$PROJECT_DIR$/han/src/main/java/ica/han/DataSource/DAO/DAO.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/han/src/main/java/ica/han/DataSource/DAO/DAOManager.java" afterPath="$PROJECT_DIR$/han/src/main/java/ica/han/DataSource/DAO/DAOManager.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/han/src/main/java/ica/han/DataSource/DAO/PlaylistDAO.java" afterPath="$PROJECT_DIR$/han/src/main/java/ica/han/DataSource/DAO/PlaylistDAO.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/han/src/main/java/ica/han/DataSource/DAO/SongDAO.java" afterPath="$PROJECT_DIR$/han/src/main/java/ica/han/DataSource/DAO/SongDAO.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/han/src/main/java/ica/han/DataSource/DAO/TrackDAO.java" afterPath="$PROJECT_DIR$/han/src/main/java/ica/han/DataSource/DAO/TrackDAO.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/han/src/main/java/ica/han/DataSource/DAO/VideoDAO.java" afterPath="$PROJECT_DIR$/han/src/main/java/ica/han/DataSource/DAO/VideoDAO.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/han/src/main/java/ica/han/DataSource/Helpers/SQLStoredProcedures.java" afterPath="$PROJECT_DIR$/han/src/main/java/ica/han/DataSource/Helpers/SQLStoredProcedures.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/han/src/main/java/ica/han/DataSource/Helpers/SQLTableStatements.java" afterPath="$PROJECT_DIR$/han/src/main/java/ica/han/DataSource/Helpers/SQLTableStatements.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/han/src/main/java/ica/han/Domain/REST/PlaylistServiceRestImpl.java" afterPath="$PROJECT_DIR$/han/src/main/java/ica/han/Domain/REST/PlaylistServiceRestImpl.java" />
     </list>
     <ignored path="spot.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -57,11 +272,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="PlaylistViewPageController.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="PlaylistViewPageController.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Spotitube-Frontend/src/main/java/han/ica/PageControllers/PlaylistViewPageController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.18195719">
+            <state vertical-scroll-proportion="0.0">
               <caret line="19" column="41" selection-start-line="19" selection-start-column="41" selection-end-line="19" selection-end-column="41" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="PlaylistSeviceImpl.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Spotitube-Frontend/src/main/java/han/ica/Service/PlaylistSeviceImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.23394495">
+              <caret line="14" column="22" selection-start-line="14" selection-start-column="22" selection-end-line="14" selection-end-column="22" />
               <folding />
             </state>
           </provider>
@@ -171,18 +396,8 @@
               <option name="myItemId" value="spot" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
-          </PATH>
-          <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="spot" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="spot" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Shared" />
+              <option name="myItemId" value="Spotitube-Frontend" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -196,7 +411,29 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Shared" />
+              <option name="myItemId" value="Spotitube-Frontend" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="spot" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="spot" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Spotitube-Frontend" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -212,7 +449,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Domain" />
+              <option name="myItemId" value="ica" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -226,7 +463,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Shared" />
+              <option name="myItemId" value="Spotitube-Frontend" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -242,11 +479,21 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Domain" />
+              <option name="myItemId" value="ica" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="DomainObjects" />
+              <option name="myItemId" value="Service" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="spot" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="spot" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -591,7 +838,7 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.30844155" sideWeight="0.50437635" order="10" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32864866" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26190478" sideWeight="0.49562362" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26190478" sideWeight="0.49562362" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24726477" sideWeight="0.4945227" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24945295" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -811,13 +1058,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Spotitube-Frontend/src/main/java/han/ica/Service/PlaylistSeviceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Spotitube-Frontend/src/main/java/han/ica/Service/PlaylistServiceRemoteImpl.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -1002,8 +1242,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Spotitube-Frontend/src/main/java/han/ica/PageControllers/PlaylistViewPageController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.18195719">
+        <state vertical-scroll-proportion="0.0">
           <caret line="19" column="41" selection-start-line="19" selection-start-column="41" selection-end-line="19" selection-end-column="41" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Spotitube-Frontend/src/main/java/han/ica/Service/PlaylistSeviceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.23394495">
+          <caret line="14" column="22" selection-start-line="14" selection-start-column="22" selection-end-line="14" selection-end-column="22" />
           <folding />
         </state>
       </provider>
