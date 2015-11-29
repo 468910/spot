@@ -2,20 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="228bdb06-e406-428b-83fc-df9ec247a4d3" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Spotitube-Frontend/target/classes/han/ica/Model/TrackModel.class" afterPath="$PROJECT_DIR$/Spotitube-Frontend/target/classes/han/ica/Model/TrackModel.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Spotitube-Frontend/target/classes/han/ica/PageControllers/AddTrackPageController.class" afterPath="$PROJECT_DIR$/Spotitube-Frontend/target/classes/han/ica/PageControllers/AddTrackPageController.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Spotitube-Frontend/target/classes/han/ica/PageControllers/PlaylistViewPageController.class" afterPath="$PROJECT_DIR$/Spotitube-Frontend/target/classes/han/ica/PageControllers/PlaylistViewPageController.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Spotitube-Frontend/target/servlet3-1.0-SNAPSHOT.war" afterPath="$PROJECT_DIR$/Spotitube-Frontend/target/servlet3-1.0-SNAPSHOT.war" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Spotitube-Frontend/target/servlet3-1.0-SNAPSHOT/WEB-INF/classes/han/ica/Model/TrackModel.class" afterPath="$PROJECT_DIR$/Spotitube-Frontend/target/servlet3-1.0-SNAPSHOT/WEB-INF/classes/han/ica/Model/TrackModel.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Spotitube-Frontend/target/servlet3-1.0-SNAPSHOT/WEB-INF/classes/han/ica/PageControllers/AddTrackPageController.class" afterPath="$PROJECT_DIR$/Spotitube-Frontend/target/servlet3-1.0-SNAPSHOT/WEB-INF/classes/han/ica/PageControllers/AddTrackPageController.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Spotitube-Frontend/target/servlet3-1.0-SNAPSHOT/WEB-INF/classes/han/ica/PageControllers/PlaylistViewPageController.class" afterPath="$PROJECT_DIR$/Spotitube-Frontend/target/servlet3-1.0-SNAPSHOT/WEB-INF/classes/han/ica/PageControllers/PlaylistViewPageController.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Spotitube-Frontend/src/main/java/han/ica/Model/TrackModel.java" afterPath="$PROJECT_DIR$/Spotitube-Frontend/src/main/java/han/ica/Model/TrackModel.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Spotitube-Frontend/src/main/java/han/ica/PageControllers/AddTrackPageController.java" afterPath="$PROJECT_DIR$/Spotitube-Frontend/src/main/java/han/ica/PageControllers/AddTrackPageController.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Spotitube-Frontend/src/main/java/han/ica/PageControllers/PlaylistViewPageController.java" afterPath="$PROJECT_DIR$/Spotitube-Frontend/src/main/java/han/ica/PageControllers/PlaylistViewPageController.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Spotitube-Frontend/src/main/webapp/tracks.jsp" afterPath="$PROJECT_DIR$/Spotitube-Frontend/src/main/webapp/tracks.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Spotitube-Frontend/target/maven-archiver/pom.properties" afterPath="$PROJECT_DIR$/Spotitube-Frontend/target/maven-archiver/pom.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Spotitube-Frontend/target/servlet3-1.0-SNAPSHOT/tracks.jsp" afterPath="$PROJECT_DIR$/Spotitube-Frontend/target/servlet3-1.0-SNAPSHOT/tracks.jsp" />
     </list>
     <ignored path="spot.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -38,11 +27,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="AddTrackPageController.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="AddTrackPageController.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Spotitube-Frontend/src/main/java/han/ica/PageControllers/AddTrackPageController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.408">
-              <caret line="29" column="33" selection-start-line="29" selection-start-column="33" selection-end-line="29" selection-end-column="33" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="30" column="63" selection-start-line="30" selection-start-column="63" selection-end-line="30" selection-end-column="63" />
               <folding />
             </state>
           </provider>
@@ -61,22 +50,19 @@
       <file leaf-file-name="playlist.jsp" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Spotitube-Frontend/src/main/webapp/playlist.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-10.413794">
+            <state vertical-scroll-proportion="0.0">
               <caret line="76" column="76" selection-start-line="76" selection-start-column="62" selection-end-line="76" selection-end-column="76" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="PlaylistViewPageController.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="PlaylistViewPageController.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Spotitube-Frontend/src/main/java/han/ica/PageControllers/PlaylistViewPageController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="32" column="58" selection-start-line="32" selection-start-column="58" selection-end-line="32" selection-end-column="58" />
-              <folding>
-                <element signature="e#835#836#0" expanded="true" />
-                <element signature="e#885#886#0" expanded="true" />
-              </folding>
+            <state vertical-scroll-proportion="0.18195719">
+              <caret line="19" column="41" selection-start-line="19" selection-start-column="41" selection-end-line="19" selection-end-column="41" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -116,10 +102,10 @@
         <option value="$PROJECT_DIR$/Spotitube-Frontend/src/main/webapp/editList.jsp" />
         <option value="$PROJECT_DIR$/Spotitube-Frontend/src/main/webapp/style.css" />
         <option value="$PROJECT_DIR$/Spotitube-Frontend/src/main/webapp/playlist.jsp" />
-        <option value="$PROJECT_DIR$/Spotitube-Frontend/src/main/java/han/ica/PageControllers/PlaylistViewPageController.java" />
         <option value="$PROJECT_DIR$/Spotitube-Frontend/src/main/java/han/ica/Model/TrackModel.java" />
-        <option value="$PROJECT_DIR$/Spotitube-Frontend/src/main/java/han/ica/PageControllers/AddTrackPageController.java" />
         <option value="$PROJECT_DIR$/Spotitube-Frontend/src/main/webapp/tracks.jsp" />
+        <option value="$PROJECT_DIR$/Spotitube-Frontend/src/main/java/han/ica/PageControllers/AddTrackPageController.java" />
+        <option value="$PROJECT_DIR$/Spotitube-Frontend/src/main/java/han/ica/PageControllers/PlaylistViewPageController.java" />
       </list>
     </option>
   </component>
@@ -165,8 +151,9 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
       <pane id="PackagesPane" />
+      <pane id="Scratches" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -265,7 +252,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -597,7 +583,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="953" y="0" width="974" height="1057" extended-state="0" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -605,7 +591,7 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.30844155" sideWeight="0.50437635" order="10" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32864866" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26190478" sideWeight="0.49562362" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26190478" sideWeight="0.49562362" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24726477" sideWeight="0.4945227" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24945295" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -684,10 +670,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="47" column="25" selection-start-line="47" selection-start-column="19" selection-end-line="47" selection-end-column="25" />
-          <folding>
-            <element signature="e#835#836#0" expanded="true" />
-            <element signature="e#885#886#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -983,7 +966,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="18" column="21" selection-start-line="18" selection-start-column="21" selection-end-line="18" selection-end-column="21" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -991,16 +973,12 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.41590214">
           <caret line="23" column="5" selection-start-line="23" selection-start-column="5" selection-end-line="23" selection-end-column="5" />
-          <folding>
-            <element signature="e#533#534#0" expanded="true" />
-            <element signature="e#595#596#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Spotitube-Frontend/src/main/webapp/playlist.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-10.413794">
+        <state vertical-scroll-proportion="0.0">
           <caret line="76" column="76" selection-start-line="76" selection-start-column="62" selection-end-line="76" selection-end-column="76" />
           <folding />
         </state>
@@ -1014,21 +992,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Spotitube-Frontend/src/main/java/han/ica/PageControllers/PlaylistViewPageController.java">
+    <entry file="file://$PROJECT_DIR$/Spotitube-Frontend/src/main/java/han/ica/PageControllers/AddTrackPageController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="32" column="58" selection-start-line="32" selection-start-column="58" selection-end-line="32" selection-end-column="58" />
-          <folding>
-            <element signature="e#835#836#0" expanded="true" />
-            <element signature="e#885#886#0" expanded="true" />
-          </folding>
+          <caret line="30" column="63" selection-start-line="30" selection-start-column="63" selection-end-line="30" selection-end-column="63" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Spotitube-Frontend/src/main/java/han/ica/PageControllers/AddTrackPageController.java">
+    <entry file="file://$PROJECT_DIR$/Spotitube-Frontend/src/main/java/han/ica/PageControllers/PlaylistViewPageController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.408">
-          <caret line="29" column="33" selection-start-line="29" selection-start-column="33" selection-end-line="29" selection-end-column="33" />
+        <state vertical-scroll-proportion="0.18195719">
+          <caret line="19" column="41" selection-start-line="19" selection-start-column="41" selection-end-line="19" selection-end-column="41" />
           <folding />
         </state>
       </provider>

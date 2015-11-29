@@ -27,6 +27,11 @@ public class AddTrackPageController extends HttpServlet {
 
     @Override
     protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
+        /* Deze regel zorgt voor het ophalen van alle mogelijke tracks. nu haalt hij
+        alleen alle tracks op die in welke playlist dan ook staan, dit moet morgen als
+        het goed is kunnen. Welterusten kieks (K)
+        TODO:
+         */
         req.setAttribute("allTracks", trackModel.getTracks(" "));
 
         /* If searchTrack isn't empty, then set the attribute playlistname to playlistname
