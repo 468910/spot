@@ -1,6 +1,7 @@
 package han.ica.Service;
 
 
+import Domain.DomainObjects.Availability;
 import Domain.DomainObjects.Playlist;
 import Domain.DomainObjects.Track;
 import Domain.Service.PlaylistService;
@@ -38,8 +39,10 @@ public class PlaylistRestImpl implements PlaylistService {
     }
 
     @Override
-    public void addTrack(int playlistId, int trackId) {
-
+    public void addTrack(Availability availability) {
+        Client client = ClientBuilder.newClient().register(JacksonFeature.class);
+        WebTarget target = client.target(baseurl + "addtrack");
+        target.request(MediaType.APPLICATION_JSON_TYPE).post(Entity.json(availability), Availability.class);
     }
 
 

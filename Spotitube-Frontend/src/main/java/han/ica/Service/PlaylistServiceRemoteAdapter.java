@@ -1,5 +1,6 @@
 package han.ica.Service;
 
+import Domain.DomainObjects.Availability;
 import Domain.DomainObjects.Playlist;
 import Domain.DomainObjects.Track;
 import Domain.Service.PlaylistService;
@@ -42,9 +43,11 @@ public class PlaylistServiceRemoteAdapter implements PlaylistService {
     }
 
     @Override
-    public void addTrack(int playlistId, int trackId) {
+    public void addTrack(Availability availability) {
 
     }
+
+
 
 
     public void addPlaylist(Playlist playlist) {
