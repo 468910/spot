@@ -1,0 +1,34 @@
+<component name="libraryTable">
+  <library name="lib">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../Spotitube-Frontend/target/servlet3-1.0-SNAPSHOT/WEB-INF/lib/javax.annotation-api-1.2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../Spotitube-Frontend/target/servlet3-1.0-SNAPSHOT/WEB-INF/lib/aopalliance-1.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../Spotitube-Frontend/target/servlet3-1.0-SNAPSHOT/WEB-INF/lib/javassist-3.18.1-GA.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../Spotitube-Frontend/target/servlet3-1.0-SNAPSHOT/WEB-INF/lib/jstl-1.2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../Spotitube-Frontend/target/servlet3-1.0-SNAPSHOT/WEB-INF/lib/jackson-core-asl-1.9.13.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../Spotitube-Frontend/target/servlet3-1.0-SNAPSHOT/WEB-INF/lib/guice-servlet-4.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../Spotitube-Frontend/target/servlet3-1.0-SNAPSHOT/WEB-INF/lib/shared-1.0-SNAPSHOT.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../Spotitube-Frontend/target/servlet3-1.0-SNAPSHOT/WEB-INF/lib/guice-4.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../Spotitube-Frontend/target/servlet3-1.0-SNAPSHOT/WEB-INF/lib/jersey-media-json-jackson-2.7.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../Spotitube-Frontend/target/servlet3-1.0-SNAPSHOT/WEB-INF/lib/jackson-mapper-asl-1.9.13.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../Spotitube-Frontend/target/servlet3-1.0-SNAPSHOT/WEB-INF/lib/jackson-jaxrs-1.9.13.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../Spotitube-Frontend/target/servlet3-1.0-SNAPSHOT/WEB-INF/lib/jersey-client-2.22.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../Spotitube-Frontend/target/servlet3-1.0-SNAPSHOT/WEB-INF/lib/jackson-xc-1.9.13.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../Spotitube-Frontend/target/servlet3-1.0-SNAPSHOT/WEB-INF/lib/javax.inject-1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../Spotitube-Frontend/target/servlet3-1.0-SNAPSHOT/WEB-INF/lib/jersey-common-2.22.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../Spotitube-Frontend/target/servlet3-1.0-SNAPSHOT/WEB-INF/lib/aopalliance-repackaged-2.4.0-b32.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../Spotitube-Frontend/target/servlet3-1.0-SNAPSHOT/WEB-INF/lib/guice-bridge-2.4.0-b32.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../Spotitube-Frontend/target/servlet3-1.0-SNAPSHOT/WEB-INF/lib/javax.ws.rs-api-2.0.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../Spotitube-Frontend/target/servlet3-1.0-SNAPSHOT/WEB-INF/lib/javax.servlet.jsp.jstl-api-1.2.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../Spotitube-Frontend/target/servlet3-1.0-SNAPSHOT/WEB-INF/lib/guava-16.0.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../Spotitube-Frontend/target/servlet3-1.0-SNAPSHOT/WEB-INF/lib/hk2-api-2.4.0-b32.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../Spotitube-Frontend/target/servlet3-1.0-SNAPSHOT/WEB-INF/lib/hk2-utils-2.4.0-b32.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../Spotitube-Frontend/target/servlet3-1.0-SNAPSHOT/WEB-INF/lib/hk2-locator-2.4.0-b31.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../Spotitube-Frontend/target/servlet3-1.0-SNAPSHOT/WEB-INF/lib/osgi-resource-locator-1.0.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../Spotitube-Frontend/target/servlet3-1.0-SNAPSHOT/WEB-INF/lib/jersey-guava-2.22.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../Spotitube-Frontend/target/servlet3-1.0-SNAPSHOT/WEB-INF/lib/javax.inject-2.4.0-b31.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
