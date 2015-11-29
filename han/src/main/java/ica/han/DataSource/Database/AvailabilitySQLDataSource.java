@@ -24,8 +24,8 @@ public class AvailabilitySQLDataSource extends SQLDataSource {
     public void insert(Entity entity) {
         try {
             PreparedStatement statement = connection.prepareStatement(SQLStoredProcedures.INSERT_LINK);
-            statement.setInt(1, ((Availability)entity).getPlaylist_Id());
-            statement.setInt(2, ((Availability) entity).getTrack_Id());
+            statement.setInt(2, ((Availability)entity).getPlaylist_Id());
+            statement.setInt(1, ((Availability) entity).getTrack_Id());
             statement.setBoolean(3, ((Availability) entity).isOfflineAvailable());
             statement.executeUpdate();
 

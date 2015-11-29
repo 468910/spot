@@ -11,6 +11,7 @@ import java.util.List;
  * Created by apple on 27/10/15.
  */
 public class PlaylistSeviceImpl implements PlaylistService {
+
         @Override
         public void updatePlayList(Playlist playlist) {
 
@@ -26,7 +27,7 @@ public class PlaylistSeviceImpl implements PlaylistService {
 
         }
 
-
+        @Override
         public void addPlaylist(Playlist playlist) {
 
         }

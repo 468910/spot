@@ -1,5 +1,6 @@
 package han.ica.Model;
 
+import Domain.DomainObjects.Availability;
 import Domain.DomainObjects.Playlist;
 import Domain.DomainObjects.Track;
 import Domain.Service.PlaylistService;
@@ -28,6 +29,12 @@ public class PlaylistModel {
 
     public void insert(Playlist playlist){
         playlistService.addPlaylist(playlist);
+    }
+
+    public void update(Playlist playlist) {playlistService.updatePlayList(playlist);}
+
+    public void addTrack(Availability availability) {
+        playlistService.addTrack(availability);
     }
 
 }

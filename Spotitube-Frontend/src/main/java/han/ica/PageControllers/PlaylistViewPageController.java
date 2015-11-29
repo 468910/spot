@@ -27,6 +27,12 @@ public class PlaylistViewPageController extends HttpServlet {
         this.playlistModel = playlistModel;
     }
 
+    /*
+        TODO: Playlist aanmaken
+        TODO: Playlist naam aanpassen
+        TODO: Nummers toevoegen in playlist
+     */
+
     @Override
     protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
         playlistModel.getAllPlaylists(abonnee);
@@ -43,9 +49,9 @@ public class PlaylistViewPageController extends HttpServlet {
     @Override
     protected void doPost(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
         /* Add a new playlist to the database
-            TODO: Not working yet
          */
-        if(req.getParameter("submitTrack") != null){
+        if(req.getParameter("submitList") != null){
+            System.out.println("Adding a new playlist: " + req.getParameter("newPlaylistName"));
             playlistModel.insert(new Playlist(2, abonnee, req.getParameter("newPlaylistName")));
             resp.sendRedirect("playlist");
         }
@@ -62,6 +68,15 @@ public class PlaylistViewPageController extends HttpServlet {
             TODO: Not implemented yet
          */
         if (req.getParameter("changeListName") != null) {
+
+//            for(int i = 0; i < playlistModel.playlists.size(); i++){
+//                if(playlistModel.playlists.get(i).getId() == playlistID){
+//
+//                }
+//            }
+            Playlist eenplaylist = playlistModel.playlists.get(4);
+            eenplaylist.setName(req.getParameter("newTrackName"));
+            playlistModel.update(eenplaylist);
             resp.sendRedirect("playlist");
         }
 

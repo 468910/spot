@@ -19,7 +19,7 @@ public class TrackModel {
         this.playlistService = playlistService;
     }
 
-    public List<Track> getTracks(String searchTerm){
-       return playlistService.getAllTracks(searchTerm);
+    public void getTracks(String searchTerm){
+       tracks = playlistService.getAllTracks(searchTerm);
     }
 }

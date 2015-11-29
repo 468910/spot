@@ -90,7 +90,7 @@ public class TrackSQLDataSource extends SQLDataSource   {
     protected Entity rowToObject(ResultSet rs) throws SQLException {
         Track track;
         String album = rs.getString("album");
-        if(album.isEmpty()){
+        if(album == null){
             track = new Video();
             ((Video)track).setDescription(rs.getString("description"));
             ((Video)track).setPlayCount(rs.getInt("playcount"));
@@ -109,6 +109,7 @@ public class TrackSQLDataSource extends SQLDataSource   {
         track.setUrl(rs.getString("url"));
         track.setPerformer(rs.getString("performer"));
         track.setDuration(rs.getInt("duration"));
+        track.setId(rs.getInt("TrackPOID"));
 
         return track;
     }

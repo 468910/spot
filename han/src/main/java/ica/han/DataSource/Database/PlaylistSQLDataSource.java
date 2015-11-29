@@ -35,7 +35,7 @@ public class PlaylistSQLDataSource extends SQLDataSource{
                 while(resultset.next()) {
                     Track track;
                     String album = rs.getString("album");
-                    if(album.isEmpty()){
+                    if(album == null){
                         track = new Video();
                         ((Video)track).setDescription(rs.getString("description"));
                         ((Video)track).setPlayCount(rs.getInt("playcount"));

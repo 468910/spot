@@ -41,8 +41,8 @@ public class PlaylistRestImpl implements PlaylistService {
     @Override
     public void addTrack(Availability availability) {
         Client client = ClientBuilder.newClient().register(JacksonFeature.class);
-        WebTarget target = client.target(baseurl + "addtrack");
-        target.request(MediaType.APPLICATION_JSON_TYPE).post(Entity.json(availability), Availability.class);
+        WebTarget target = client.target(baseurl + "playlists/addtrack");
+        target.request(MediaType.APPLICATION_JSON).post(Entity.json(availability), Availability.class);
     }
 
 
@@ -58,6 +58,6 @@ public class PlaylistRestImpl implements PlaylistService {
         Client client = ClientBuilder.newClient().register(JacksonFeature.class);
         WebTarget target = client.target(baseurl + "playlists/tracks/" + searchTerm);
         //target.getUriBuilder().path("{searchTerm}").build(searchTerm);
-        return target.request(MediaType.APPLICATION_JSON).get(List.class);
+        return target.request(MediaType.APPLICATION_JSON).get(new GenericType<List<Track>>(){});
     }
 }
