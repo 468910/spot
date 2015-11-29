@@ -2,7 +2,7 @@ package ica.han.DataSource.DAO;
 
 import Domain.DomainObjects.Entity;
 import com.google.inject.Inject;
-import ica.han.DataSource.IRelationalDataSource;
+import ica.han.DataSource.Database.IDataSource;
 
 import java.sql.ResultSet;
 import java.sql.SQLException;
@@ -13,35 +13,26 @@ import java.util.List;
  */
 public abstract class DAO {
 
-    abstract List GetList();
+    public abstract List GetList();
 
-    public void insert(Entity entity){
+    public void insert(Entity entity) {
         dataSource.insert(entity);
     }
 
-    public Entity GetById(int id){
-        ResultSet rs = dataSource.find(new String(Integer.toString(id)));
-        try{
-            return rowToObject(rs);
-        }catch (Exception e){
-            e.printStackTrace();
-        }
-        return null;
-    }
 
-    public void update(final Entity object){
+    public void update(Entity object) {
         dataSource.update(object);
     }
-    public void delete(final Entity object){
+
+
+    public void delete(Entity object) {
         dataSource.delete(object);
     }
 
-    protected abstract Entity rowToObject(ResultSet rs) throws SQLException;
-
-    protected IRelationalDataSource dataSource;
+    protected IDataSource dataSource;
 
     @Inject
-    public DAO(IRelationalDataSource dataSource) {
+    public DAO(IDataSource dataSource) {
         this.dataSource = dataSource;
 
     }

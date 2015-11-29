@@ -1,8 +1,8 @@
 package ica.han.DataSource.DAO;
 
 import com.google.inject.Singleton;
+import ica.han.DataSource.Database.*;
 import ica.han.DataSource.Helpers.SQLTableStatements;
-import ica.han.DataSource.MySqlRelationalDataSource;
 
 import java.io.File;
 import java.lang.reflect.Field;
@@ -79,31 +79,31 @@ public class DAOManager {
             @Override
             protected DAO getDAO(Connection connection)
             {
-                return new PlaylistDAO(new MySqlRelationalDataSource<Domain.DomainObjects.Playlist>(connection, Domain.DomainObjects.Playlist.class));
+                return new PlaylistDAO(new PlaylistSQLDataSource(connection));
             }
         },
         Song() {
             @Override
             protected DAO getDAO(Connection connection) {
-                return new SongDAO(new MySqlRelationalDataSource<Domain.DomainObjects.Song>(connection, Domain.DomainObjects.Song.class));
+                return new SongDAO(new SongSQLDataSource(connection));
             }
         },
         Track() {
             @Override
             protected DAO getDAO(Connection connection){
-               return new TrackDAO(new MySqlRelationalDataSource<Domain.DomainObjects.Track>(connection, Domain.DomainObjects.Track.class));
+               return new TrackDAO(new TrackSQLDataSource(connection));
             }
         },
         Video() {
             @Override
             protected DAO getDAO(Connection connection){
-                return new VideoDAO(new MySqlRelationalDataSource<Domain.DomainObjects.Video>(connection, Domain.DomainObjects.Video.class));
+                return new VideoDAO(new VideoSQLDataSource(connection));
             }
         },
         Availability(){
             @Override
             protected DAO getDAO(Connection connection){
-                return new AvailabilityDAO(new MySqlRelationalDataSource<Domain.DomainObjects.Availability>(connection, Domain.DomainObjects.Availability.class));
+                return new AvailabilityDAO(new AvailabilitySQLDataSource(connection));
             }
         };
 

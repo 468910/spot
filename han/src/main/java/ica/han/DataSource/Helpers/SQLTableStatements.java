@@ -16,23 +16,11 @@ public class SQLTableStatements {
                                                 " performer VARCHAR(255) not NULL, " +
                                                 " title VARCHAR(255) not NULL, " +
                                                 " url VARCHAR(255) not NULL, " +
-                                                " duration INTEGER not NULL)";
-
-
-
-    public static String CREATE_TABLE_VIDEO = "CREATE TABLE Video " +
-                                              " (VideoPOID INTEGER not NULL AUTO_INCREMENT PRIMARY KEY," +
-                                              " FK_TrackPOID INTEGER not NULL, " +
-                                              " playcount INTEGER not NULL, " +
-                                              " publicationdate TIMESTAMP not NULL, " +
-                                              " description VARCHAR(255) not NULL, " +
-                                              " FOREIGN KEY (FK_TrackPOID) REFERENCES Track(TrackPOID))";
-
-    public static String CREATE_TABLE_SONG = "CREATE TABLE Song " +
-                                             " (SongPOID INTEGER not NULL AUTO_INCREMENT PRIMARY KEY, " +
-                                             " FK_TrackPOID INTEGER not NULL," +
-                                             " album VARCHAR(255), " +
-                                             " FOREIGN KEY (FK_TrackPOID) REFERENCES Track(TrackPOID))";
+                                                " duration INTEGER  NULL)" +
+                                                " playcount INTEGER  NULL, " +
+                                                " publicationdate TIMESTAMP NULL, " +
+                                                " description VARCHAR(255) NULL, " +
+                                                 " album VARCHAR(255) NULL)";
 
 
     public static String CREATE_TABLE_AVAILABILITY = "CREATE TABLE Availability " +

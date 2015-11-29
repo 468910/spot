@@ -24,7 +24,9 @@ public class PlaylistRestImpl implements PlaylistService {
 
     @Override
     public void updatePlayList(Playlist playlist) {
-
+        Client client = ClientBuilder.newClient().register(JacksonFeature.class);
+        WebTarget target = client.target(baseurl + "playlists/updateplaylist");
+        target.request(MediaType.APPLICATION_JSON).post(Entity.json(playlist), Playlist.class);
     }
 
     @Override

@@ -29,7 +29,7 @@ public class PlaylistServiceRestImpl implements PlaylistService {
 
     @Path("/updateplaylist")
     @POST
-    @Consumes
+    @Consumes("application/json")
     public void updatePlayList(Playlist playlist) {
         ((PlaylistDAO)daoManager.getDAO(DAOManager.Table.Playlist)).update(playlist);
     }

@@ -19,15 +19,15 @@ public class App {
             e.printStackTrace();
         }
         PlaylistDAO dao = (PlaylistDAO) new DAOManager().getDAO(DAOManager.Table.Playlist);
-        dao.insert(new Playlist(1, "test", "test"));
-        dao.insert(new Playlist(2, "yay", "yay"));
+        dao.update(new Playlist(1, "Jaapie", "test"));
+        dao.update(new Playlist(2, "GVD", "yay"));
 
         TrackDAO trackDAO = (TrackDAO) new DAOManager().getDAO(DAOManager.Table.Track);
 
-        trackDAO.insert(new Track("Geweldige jan", "Zondag", "?", 1));
+       /* trackDAO.insert(new Track("Geweldige jan", "Zondag", "?", 1));
         trackDAO.insert(new Track("Geweldige jan", "Goedemorgen", "?", 1));
         trackDAO.insert(new Track("Geweldige jan", "Als ik jou niet had", "?", 1));
-        trackDAO.insert(new Track("Geweldige jan", "Ik ben gelukkig", "?", 1));
+        trackDAO.insert(new Track("Geweldige jan", "Ik ben gelukkig", "?", 1));*/
 
 
 

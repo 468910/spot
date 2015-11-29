@@ -15,4 +15,6 @@ public class SQLStoredProcedures {
 
     public static String INSERT_LINK = "INSERT INTO Availability(FK_TrackPOID, FK_PlaylistPOID, onlineAvailability) VALUES(?, ?, ?)";
 
+    public static String UPDATE_Playlist = "UPDATE Playlist SET owner = ?, name = ? WHERE PlaylistPOID = ?";
+
 }
