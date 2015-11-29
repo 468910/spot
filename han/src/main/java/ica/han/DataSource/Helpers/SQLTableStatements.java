@@ -14,7 +14,7 @@ public class SQLTableStatements {
     public static String CREATE_TABLE_TRACK = "CREATE TABLE Track " +
                                                 "(TrackPOID INTEGER not NULL AUTO_INCREMENT PRIMARY KEY, " +
                                                 " performer VARCHAR(255) not NULL, " +
-                                                " title VARCHAR(255) not NULL, " +
+                                                " title VARCHAR(255) not NULL UNIQUE, " +
                                                 " url VARCHAR(255) not NULL, " +
                                                 " duration INTEGER  NULL," +
                                                 " playcount INTEGER  NULL, " +

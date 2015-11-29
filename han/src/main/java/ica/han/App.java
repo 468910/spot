@@ -2,6 +2,7 @@ package ica.han;
 
 import Domain.DomainObjects.Playlist;
 import Domain.DomainObjects.Song;
+import Domain.DomainObjects.Video;
 import ica.han.DataSource.DAO.DAOManager;
 import ica.han.DataSource.DAO.PlaylistDAO;
 import ica.han.DataSource.DAO.SongDAO;
@@ -9,6 +10,8 @@ import ica.han.DataSource.DAO.TrackDAO;
 import ica.han.DataSource.Database.PlaylistSQLDataSource;
 import ica.han.DataSource.Database.SongSQLDataSource;
 
+import java.util.ArrayList;
+import java.util.Calendar;
 import java.util.List;
 
 /**
@@ -26,7 +29,7 @@ public class App {
         //dao.insert(new Playlist(1, "Jaapie", "test"));
         Playlist playlist = new Playlist(1, "betty", "Test");
         playlist.setId(1);
-        dao.update(playlist);
+        dao.insert(playlist);
 
 
         TrackDAO trackDAO = (TrackDAO) new DAOManager().getDAO(DAOManager.Table.Track);
@@ -38,6 +41,41 @@ public class App {
         song.setTitle("yoope");
         song.setUrl("Http://google.com");
 
+
+        Video video = new Video();
+        video.setDescription("Dit is een mooie video");
+        video.setPlayCount(9001);
+        video.setPublicationDate(Calendar.getInstance());
+        video.setPerformer("De kat van de buren");
+        video.setDuration(9);
+        video.setTitle("Grappig homevideo");
+        video.setUrl("http://ergens.nl");
+        video.setTitle("Lachende Kat");
+
+
+        ArrayList<Song> anouks = new ArrayList<>();
+
+        Song anouk = new Song();
+        anouk.setTitle("U Being Me");
+        anouks.add(anouk);
+
+        Song anouk2 = new Song();
+        anouk2.setTitle("Cry");
+        anouks.add(anouk2);
+
+
+        // JAVA 8
+        anouks.stream().forEach((Song) -> {
+            Song.setAlbum("Urban Solitude");
+            Song.setDuration(100);
+            Song.setUrl("http://spot/UrbanSolitude");
+            Song.setPerformer("Anouk");
+            trackDAO.insert(Song);
+        });
+
+
+
+        trackDAO.insert(video);
         trackDAO.insert(song);
 
         List list = dao.GetListByOwner("ANY");
@@ -46,9 +84,6 @@ public class App {
 
 
         SongDAO songDAO = (SongDAO) new DAOManager().getDAO(DAOManager.Table.Song);
-
-
-
 
 
 
