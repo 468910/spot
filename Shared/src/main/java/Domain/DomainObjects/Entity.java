@@ -6,6 +6,8 @@ package Domain.DomainObjects;
 public abstract class Entity {
     int id;
 
+
+
     public int getId() {
         return id;
     }

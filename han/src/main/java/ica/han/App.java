@@ -1,11 +1,15 @@
 package ica.han;
 
 import Domain.DomainObjects.Playlist;
-import Domain.DomainObjects.Track;
+import Domain.DomainObjects.Song;
 import ica.han.DataSource.DAO.DAOManager;
 import ica.han.DataSource.DAO.PlaylistDAO;
+import ica.han.DataSource.DAO.SongDAO;
 import ica.han.DataSource.DAO.TrackDAO;
-import ica.han.Domain.POJO.Server;
+import ica.han.DataSource.Database.PlaylistSQLDataSource;
+import ica.han.DataSource.Database.SongSQLDataSource;
+
+import java.util.List;
 
 /**
  * Hello world!
@@ -19,15 +23,30 @@ public class App {
             e.printStackTrace();
         }
         PlaylistDAO dao = (PlaylistDAO) new DAOManager().getDAO(DAOManager.Table.Playlist);
-        dao.update(new Playlist(1, "Jaapie", "test"));
-        dao.update(new Playlist(2, "GVD", "yay"));
+        //dao.insert(new Playlist(1, "Jaapie", "test"));
+        Playlist playlist = new Playlist(1, "betty", "Test");
+        playlist.setId(1);
+        dao.update(playlist);
+
 
         TrackDAO trackDAO = (TrackDAO) new DAOManager().getDAO(DAOManager.Table.Track);
 
-       /* trackDAO.insert(new Track("Geweldige jan", "Zondag", "?", 1));
-        trackDAO.insert(new Track("Geweldige jan", "Goedemorgen", "?", 1));
-        trackDAO.insert(new Track("Geweldige jan", "Als ik jou niet had", "?", 1));
-        trackDAO.insert(new Track("Geweldige jan", "Ik ben gelukkig", "?", 1));*/
+        Song song = new Song();
+        song.setAlbum("Testalbum");
+        song.setDuration(8);
+        song.setPerformer("Klaas");
+        song.setTitle("yoope");
+        song.setUrl("Http://google.com");
+
+        trackDAO.insert(song);
+
+        List list = dao.GetListByOwner("ANY");
+        System.out.println(list.size());
+
+
+
+        SongDAO songDAO = (SongDAO) new DAOManager().getDAO(DAOManager.Table.Song);
+
 
 
 

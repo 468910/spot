@@ -28,7 +28,7 @@ public class PlaylistSQLDataSource extends SQLDataSource{
 
         for(Playlist p : (ArrayList<Playlist>)list){
             ResultSet rs = (executeQuery("SELECT * FROM Availability INNER JOIN Playlist on PlaylistPOID = FK_PlaylistPOID " +
-                    "INNER JOIN Track on TrackPOID = FK_TrackPOID Where owner = " + p.getOwner()));
+                    "INNER JOIN Track on TrackPOID = FK_TrackPOID Where owner = '" + p.getOwner() + "'"));
             try{
 
 
@@ -90,9 +90,8 @@ public class PlaylistSQLDataSource extends SQLDataSource{
     public void insert(Entity entity) {
         try {
             PreparedStatement statement = connection.prepareStatement(SQLStoredProcedures.INSERT_PLAYLIST);
-            statement.setInt(1, entity.getId());
             statement.setString(2, ((Playlist) entity).getName());
-            statement.setString(3, ((Playlist) entity).getOwner());
+            statement.setString(1, ((Playlist) entity).getOwner());
             statement.executeUpdate();
 
         }catch (Exception e){
@@ -108,8 +107,12 @@ public class PlaylistSQLDataSource extends SQLDataSource{
         try{
             PreparedStatement statement = connection.prepareStatement(SQLStoredProcedures.UPDATE_Playlist);
             statement.setInt(3, entity.getId());
-            statement.setString(1, ((Playlist) entity).getName());
-            statement.setString(2, ((Playlist) entity).getOwner());
+            System.out.println(entity.getId());
+            statement.setString(2, ((Playlist) entity).getName());
+            System.out.println(((Playlist) entity).getName());
+            statement.setString(1, ((Playlist) entity).getOwner());
+            System.out.println(((Playlist) entity).getOwner());
+                    statement.executeUpdate();
         }catch (Exception e){
             e.printStackTrace();
         }

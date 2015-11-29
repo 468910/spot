@@ -16,11 +16,11 @@ public class SQLTableStatements {
                                                 " performer VARCHAR(255) not NULL, " +
                                                 " title VARCHAR(255) not NULL, " +
                                                 " url VARCHAR(255) not NULL, " +
-                                                " duration INTEGER  NULL)" +
+                                                " duration INTEGER  NULL," +
                                                 " playcount INTEGER  NULL, " +
                                                 " publicationdate TIMESTAMP NULL, " +
                                                 " description VARCHAR(255) NULL, " +
-                                                 " album VARCHAR(255) NULL)";
+                                                " album VARCHAR(255) NULL)";
 
 
     public static String CREATE_TABLE_AVAILABILITY = "CREATE TABLE Availability " +

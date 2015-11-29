@@ -17,29 +17,27 @@ public class SongSQLDataSource extends SQLDataSource {
        super(connection);
     }
 
+    public List find(String query) {
+        return null;
+    }
+
+    public void insert(Entity entity) {
+
+    }
+
+    public void delete(Entity entity) {
+
+    }
+
+    public void update(Entity entity) {
+
+    }
+
     protected Entity rowToObject(ResultSet rs) throws SQLException {
         Song song = new Song();
         song.setAlbum(rs.getString("album"));
         return song;
     }
 
-    @Override
-    public List find(String query) {
-        return null;
-    }
 
-    @Override
-    public void insert(Entity entity) {
-
-    }
-
-    @Override
-    public void delete(Entity entity) {
-
-    }
-
-    @Override
-    public void update(Entity entity) {
-
-    }
 }
