@@ -27,15 +27,15 @@ public class PlaylistSQLDataSource extends SQLDataSource{
         List list = resultSetToList(resultset);
 
         for(Playlist p : (ArrayList<Playlist>)list){
+            System.out.println("yayyay");
             ResultSet rs = (executeQuery("SELECT * FROM Availability INNER JOIN Playlist on PlaylistPOID = FK_PlaylistPOID " +
-                    "INNER JOIN Track on TrackPOID = FK_TrackPOID Where owner = '" + p.getOwner() + "'"));
+                    "INNER JOIN Track on TrackPOID = FK_TrackPOID Where name = '" + p.getName() + "'"));
             try{
-
-
-                while(resultset.next()) {
+                while(rs.next()) {
                     Track track;
                     String album = rs.getString("album");
                     if(album == null){
+                        System.out.println("Adding Video");
                         track = new Video();
                         ((Video)track).setDescription(rs.getString("description"));
                         ((Video)track).setPlayCount(rs.getInt("playcount"));
@@ -46,11 +46,12 @@ public class PlaylistSQLDataSource extends SQLDataSource{
                         calendar.setTime(date);
                         ((Video) track).setPublicationDate(calendar);
                     }else{
+                        System.out.println("Adding Song");
                         track = new Song();
                         ((Song)track).setAlbum(rs.getString("album"));
                     }
 
-                    System.out.println("Track ADDDEDE");
+                    System.out.println("Added Track");
                     track.setTitle(rs.getString("title"));
                     track.setUrl(rs.getString("url"));
                     track.setPerformer(rs.getString("performer"));

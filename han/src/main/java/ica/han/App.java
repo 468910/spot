@@ -26,6 +26,15 @@ public class App {
             e.printStackTrace();
         }
         PlaylistDAO dao = (PlaylistDAO) new DAOManager().getDAO(DAOManager.Table.Playlist);
+        List<Playlist> list = dao.GetListByOwner("betty");
+
+        list.stream().forEach((Playlist) -> {
+            System.out.println(Playlist.getOwner());
+            System.out.println(Playlist.getName());
+            System.out.println(Playlist.getTracks().size());
+        });
+
+        /*
         //dao.insert(new Playlist(1, "Jaapie", "test"));
         Playlist playlist = new Playlist(1, "betty", "Test");
         playlist.setId(1);
@@ -84,7 +93,7 @@ public class App {
 
 
         SongDAO songDAO = (SongDAO) new DAOManager().getDAO(DAOManager.Table.Song);
-
+        */
 
 
     }
