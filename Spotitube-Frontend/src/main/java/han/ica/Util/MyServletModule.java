@@ -1,6 +1,7 @@
 package han.ica.Util;
 
 import Domain.Service.RemotePlayListService;
+import com.fasterxml.jackson.jaxrs.json.JacksonJaxbJsonProvider;
 import com.google.inject.Singleton;
 import com.google.inject.servlet.ServletModule;
 import han.ica.PageControllers.AddTrackPageController;

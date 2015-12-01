@@ -2,27 +2,18 @@ package Domain.DomainObjects;
 
 
 
-import org.codehaus.jackson.annotate.JsonSubTypes;
-import org.codehaus.jackson.annotate.JsonTypeInfo;
-
 /**
  * Created by apple on 02/10/15.
  */
 
-@JsonTypeInfo(
-        use = JsonTypeInfo.Id.NAME,
-        include = JsonTypeInfo.As.PROPERTY,
-        property = "type")
-@JsonSubTypes({
-        @JsonSubTypes.Type(value = Song.class, name = "Song"),
-        @JsonSubTypes.Type(value = Video.class, name = "Video")
-})
+
 
 public class Track extends Entity {
     private String performer;
     private String title;
     private String url;
     private long duration;
+    public Class objectType;
 
     public Track(String performer, String title, String url, long duration) {
         this.performer = performer;
