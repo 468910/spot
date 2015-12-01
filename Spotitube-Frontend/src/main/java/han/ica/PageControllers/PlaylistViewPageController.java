@@ -69,15 +69,19 @@ public class PlaylistViewPageController extends HttpServlet {
          */
         if (req.getParameter("changeListName") != null) {
 
-//            for(int i = 0; i < playlistModel.playlists.size(); i++){
-//                if(playlistModel.playlists.get(i).getId() == playlistID){
-//
-//                }
-//            }
-            Playlist eenplaylist = playlistModel.playlists.get(4);
-            eenplaylist.setName(req.getParameter("newTrackName"));
-            playlistModel.update(eenplaylist);
-            resp.sendRedirect("playlist");
+            for(int i = 0; i < playlistModel.playlists.size(); i++){
+                if(playlistModel.playlists.get(i).getId() == Integer.parseInt(playlistID)){
+                    Playlist eenplaylist = playlistModel.playlists.get(i);
+                    eenplaylist.setName(req.getParameter("newTrackName"));
+                    playlistModel.update(eenplaylist);
+                    resp.sendRedirect("playlist");
+                }
+            }
+
+//            Playlist eenplaylist = playlistModel.playlists.get(4);
+//            eenplaylist.setName(req.getParameter("newTrackName"));
+//            playlistModel.update(eenplaylist);
+//            resp.sendRedirect("playlist");
         }
 
         /* To redirect to /addTrack

@@ -55,7 +55,7 @@ public class AddTrackPageController extends HttpServlet {
                 System.out.println("Got a match");
                 for(int j = 0; j < playlistModel.playlists.get(i).getTracks().size(); j++){
                     req.setAttribute("list", playlistModel.playlists.get(i).getTracks());
-                    System.out.println("GLASLSLDDK");
+                    System.out.println(playlistModel.playlists.get(i).getTracks().get(0).getTitle());
                 }
             }
         }
@@ -69,14 +69,13 @@ public class AddTrackPageController extends HttpServlet {
                 availability.setTrack_Id(Integer.parseInt(req.getParameterValues("addToPlaylist")[i]));
                 availability.setPlaylist_Id(playlistID);
                 playlistModel.addTrack(availability);
-
             }
-//            resp.sendRedirect("addtrack");
         }
 
         /* Use this view in /addtrack
          */
         req.getRequestDispatcher("tracks.jsp").forward(req, resp);
+//        resp.sendRedirect("addtrack");
     }
 
     @Override

@@ -57,11 +57,14 @@ public class PlaylistRestImpl implements PlaylistService {
                     JsonObject jsonPlaylist = array.getJsonObject(i);
 
                     JsonArray jsonTracks = jsonPlaylist.getJsonArray("tracks");
-                    /**
-                    for(int j = 0; j < jsonTracks.size(); i++){
-                        JsonObject jsonTrack = jsonTracks.getJsonObject(j);
-                        playlist.add(mapToTrack(jsonTrack));
-                    }*/
+
+                    System.out.println(jsonTracks.size());
+//                    if(jsonTracks.size() > 0) {
+                        for(int j = 0; j < jsonTracks.size(); j++){
+                            JsonObject jsonTrack = jsonTracks.getJsonObject(j);
+                            playlist.add(mapToTrack(jsonTrack));
+                        }
+//                    }
 
 
                     playlist.setOwner(jsonPlaylist.getString("owner"));
@@ -96,9 +99,13 @@ public class PlaylistRestImpl implements PlaylistService {
         track.setPerformer(jsonObject.getString("performer"));
         track.setTitle(jsonObject.getString("title"));
         track.setUrl(jsonObject.getString("url"));
-
-
-        return new Track();
+//        System.out.println("SGESEGESGSEGSEGRSGDFZBDRNHZREGDRBZRDBR");
+//        System.out.println(jsonObject.getInt("id"));
+//        System.out.println(jsonObject.getInt("duration"));
+//        System.out.println(jsonObject.getString("performer"));
+//        System.out.println(jsonObject.getString("title"));
+//        System.out.println(jsonObject.getString("url"));
+        return track;
     }
 
 
