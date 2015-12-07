@@ -83,9 +83,9 @@ public class PlaylistRestImpl implements PlaylistService {
 
     private Track mapToTrack(JsonObject jsonObject){
         Track track = new Track();
-        /**
+
         String album = jsonObject.getString("album");
-        if(album == null){
+        if(jsonObject.getString("type").equals("Video")){
             track = new Video();
             ((Video)track).setDescription(jsonObject.getString("description"));
             ((Video)track).setPlayCount(jsonObject.getInt("playCount"));
@@ -93,7 +93,7 @@ public class PlaylistRestImpl implements PlaylistService {
         }else{
             track = new Song();
             ((Song)track).setAlbum(jsonObject.getString("album"));
-        }*/
+        }
         track.setId(jsonObject.getInt("id"));
         track.setDuration(jsonObject.getInt("duration"));
         track.setPerformer(jsonObject.getString("performer"));

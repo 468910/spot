@@ -53,6 +53,7 @@ public class TrackSQLDataSource extends SQLDataSource   {
             statement.setString(3, ((Track)entity).getUrl());
             statement.setLong(4, ((Track) entity).getDuration());
 
+
             if(entity instanceof Video){
 
                 statement.setInt(5, ((Video)entity).getPlayCount());
@@ -62,12 +63,14 @@ public class TrackSQLDataSource extends SQLDataSource   {
                 statement.setDate(6, (new Date(calendar.getTimeInMillis())));
                 statement.setString(7, ((Video) entity).getDescription());
                 statement.setString(8, null);
+                statement.setString(9, "Video");
 
             }else if(entity instanceof Song){
                 statement.setInt(5, 0);
                 statement.setDate(6, null);
                 statement.setString(7, null);
                 statement.setString(8,((Song)entity).getAlbum());
+                statement.setString(9, "Song");
 
             }else{
                 System.out.println("Error");
@@ -89,8 +92,7 @@ public class TrackSQLDataSource extends SQLDataSource   {
 
     protected Entity rowToObject(ResultSet rs) throws SQLException {
         Track track;
-        String album = rs.getString("album");
-        if(album == null){
+        if(rs.getString("type").equals("Video")){
             track = new Video();
             ((Video)track).setDescription(rs.getString("description"));
             ((Video)track).setPlayCount(rs.getInt("playcount"));
