@@ -20,7 +20,8 @@ public class SQLTableStatements {
                                                 " playcount INTEGER  NULL, " +
                                                 " publicationdate TIMESTAMP NULL, " +
                                                 " description VARCHAR(255) NULL, " +
-                                                " album VARCHAR(255) NULL)";
+                                                " album VARCHAR(255) NULL, " +
+                                                " type VARCHAR(10)) ";
 
 
     public static String CREATE_TABLE_AVAILABILITY = "CREATE TABLE Availability " +
