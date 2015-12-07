@@ -31,7 +31,9 @@ public class PlaylistModel {
         playlistService.addPlaylist(playlist);
     }
 
-    public void update(Playlist playlist) {playlistService.updatePlayList(playlist);}
+    public void update(Playlist playlist) {
+        playlistService.updatePlayList(playlist);
+    }
 
     public void addTrack(Availability availability) {
         playlistService.addTrack(availability);

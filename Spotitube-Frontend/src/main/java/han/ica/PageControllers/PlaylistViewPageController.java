@@ -21,6 +21,7 @@ public class PlaylistViewPageController extends HttpServlet {
     private final PlaylistModel playlistModel;
     public String playlistName = "";
     public String playlistID = "";
+    public String oldName = "";
 
     @Inject
     public PlaylistViewPageController(PlaylistModel playlistModel){
@@ -40,7 +41,7 @@ public class PlaylistViewPageController extends HttpServlet {
 
         /* To get the parameters from the playlist table
          */
-        req.setAttribute("myBean", playlistName);
+        req.setAttribute("myBean", oldName);
         req.setAttribute("playlistID", playlistID);
 
         req.getRequestDispatcher("playlist.jsp").forward(req, resp);
@@ -61,11 +62,18 @@ public class PlaylistViewPageController extends HttpServlet {
         if(req.getParameter("editThisList") != null){
             playlistName = req.getParameter("radioButton");
             playlistID = req.getParameter("listID");
+            for(int i = 0; i < playlistModel.playlists.size(); i++){
+                if(playlistModel.playlists.get(i).getId() == Integer.parseInt(playlistID)){
+                    oldName = playlistModel.playlists.get(i).getName();
+                    System.out.println(oldName + " SGEYOYOYOYO");
+//                    req.setAttribute("myBean", playlistModel.playlists.get(i).getName());
+                }
+            }
+            req.setAttribute("myBean", oldName);
             resp.sendRedirect("playlist");
         }
 
         /* Change the playlist name
-            TODO: Not implemented yet
          */
         if (req.getParameter("changeListName") != null) {
 
@@ -77,11 +85,6 @@ public class PlaylistViewPageController extends HttpServlet {
                     resp.sendRedirect("playlist");
                 }
             }
-
-//            Playlist eenplaylist = playlistModel.playlists.get(4);
-//            eenplaylist.setName(req.getParameter("newTrackName"));
-//            playlistModel.update(eenplaylist);
-//            resp.sendRedirect("playlist");
         }
 
         /* To redirect to /addTrack

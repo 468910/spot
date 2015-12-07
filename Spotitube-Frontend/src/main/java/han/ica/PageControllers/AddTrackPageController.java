@@ -37,14 +37,18 @@ public class AddTrackPageController extends HttpServlet {
         /* If searchTrack isn't empty, then set the attribute playlistname to playlistname
          */
         String playListName = req.getParameter("playlistName");
-        if(req.getParameter("searchTrack") != null){
-            req.setAttribute("playlistName", playListName);
-        }
         playlistModel.getAllPlaylists(playListName);
 
         /* Set the H1 element: ListID to the right id
          */
         playlistID = Integer.parseInt(req.getParameter("playlistID"));
+        for(int i = 0; i < playlistModel.playlists.size(); i++){
+            if(playlistModel.playlists.get(i).getId() == playlistID){
+                req.setAttribute("playlistName", playlistModel.playlists.get(i).getName());
+                System.out.println("MATCH" + playlistModel.playlists.get(i).getName());
+            }
+        }
+//        req.setAttribute("playlistName", playListName);
         req.setAttribute("playlistID", playlistID);
 
         /* Match playlistID to one of the id's to find the right playlist
