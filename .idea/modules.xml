@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/Shared/Shared.iml" filepath="$PROJECT_DIR$/Shared/Shared.iml" />
+      <module fileurl="file://$PROJECT_DIR$/han/han.iml" filepath="$PROJECT_DIR$/han/han.iml" />
       <module fileurl="file://$PROJECT_DIR$/Spotitube-Frontend/servlet3.iml" filepath="$PROJECT_DIR$/Spotitube-Frontend/servlet3.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/spot.iml" filepath="$PROJECT_DIR$/.idea/spot.iml" />
     </modules>
