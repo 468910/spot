@@ -20,6 +20,7 @@ import java.util.List;
  */
 public class App {
     public static void main(String[] args) {
+        System.out.println("Hey");
         try {
             Class.forName("com.mysql.jdbc.Driver");
         } catch (Exception e) {

@@ -38,8 +38,8 @@
           <url>http://localhost:8080/manager/text</url>
           <server>mytomcat</server>
           <path>/han</path>
-          <username>admin</username>
-          <password>password</password>
+          <username>tomcat</username>
+          <password>s3cret</password>
         </configuration>
       </plugin>
 
@@ -111,9 +111,24 @@
     </dependency>
 
 
+    <dependency>
+      <groupId>com.graphql-java</groupId>
+      <artifactId>graphql-java</artifactId>
+      <version>4.2</version>
+    </dependency>
 
 
+    <dependency>
+      <groupId>com.graphql-java</groupId>
+      <artifactId>graphql-java-tools</artifactId>
+      <version>4.1.2</version>
+    </dependency>
 
+    <dependency>
+      <groupId>com.graphql-java</groupId>
+      <artifactId>graphql-java-servlet</artifactId>
+      <version>4.4.0</version>
+    </dependency>
 
     <!-- Jersey Server-->
     <dependency>
@@ -143,4 +158,13 @@
 
 
   </dependencies>
+
+  <repositories>
+      <repository>
+        <id>mvnrepository</id>
+        <name>mvnrepository</name>
+        <url>http://www.mvnrepository.com</url>
+      </repository>
+
+  </repositories>
 </project>
